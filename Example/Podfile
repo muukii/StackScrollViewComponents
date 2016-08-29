@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StackScrollViewComponents_Example' do
+  pod 'StackScrollViewComponents', :path => '../'
+
+  target 'StackScrollViewComponents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
