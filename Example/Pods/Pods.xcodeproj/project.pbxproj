@@ -1,0 +1,1342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C16EA14052FE9D9D2D8A1DFED4704F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B65689DDBB0CE626895BBB24379439 /* Node.swift */; };
+		10A990919E298AC4FDD3D293AABE964D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
+		131B086640309E45D7AB282DE92AAF9B /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB796990160A5C793B01FB947E311E70 /* Context.swift */; };
+		2CB9A2570A1F3E110E68C9DB5BA88C8F /* PositionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D4C462E40129A06866A7E1F06290 /* PositionAttribute+AppKit.swift */; };
+		355F3E122A4FD19182581929248BE5AF /* CompoundAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20CF88C86839FCC02478707EF55A14C /* CompoundAttribute.swift */; };
+		3BCFF771A59A78D72033380FDBFBBBD4 /* ReferenceAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506E48AA27B6C2A1FA04AC0459D7C3 /* ReferenceAttribute.swift */; };
+		447AC19C3E732156FCBFFF5B814A65CF /* Item+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42073D4EDF2E6022EECFECA2B8CF25A0 /* Item+AppKit.swift */; };
+		455AF6A97E227E2FADDEC6E71CA63FA7 /* StackScrollViewComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA022F5F9864562B8903191F1A2BDCF /* StackScrollViewComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA987CB31D0F2824FDA4348065F4C16 /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AD0997E891E8385E9A3B711109C429 /* Then-dummy.m */; };
+		4B2A6A221D74BB550055F346 /* LabelStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */; };
+		4B2A6A241D74BC040055F346 /* SeparatorStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */; };
+		4B2A6A261D74BEC30055F346 /* SpaceStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */; };
+		525F78AEAAC7ABF3D28ADC9DD8C83224 /* Pods-StackScrollViewComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD3F987BEFC88B1467F460F02BB79E1 /* Pods-StackScrollViewComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54DE0D61DD6740119F169414DDEF455C /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */; };
+		5685D4B8D3859582FCB4FC935574D799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
+		589A8E124DEEC2A14EE0868FB5678C56 /* EasyPeasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BB0236CAF6778E48BB573227CB58E3 /* EasyPeasy-dummy.m */; };
+		5A35A10D3CB96C994387BFD7E4956C90 /* StackScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D710490F9157ABC81AA1F0F83F62596 /* StackScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6D639A9B01FD35544BA88455275AF0 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081E5464550F2AE31885EC0F9728521 /* Priority.swift */; };
+		5E6B7BB0F897F7DCFA1B889DC7632462 /* UILayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A06442E2406C9D71AA01658DD4C9 /* UILayoutGuide+Easy.swift */; };
+		72A01CB67AAD9F2C917C9186C3FCB4C4 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9E166EC9D683C04A8F59FB204DD70 /* Then.swift */; };
+		743C1B674CDCEE24B4D36163EFA5A755 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FA90F7697E3D95F004603788661B7 /* ReplaceMe.swift */; };
+		746B1AAEA4005A7597DE1928F18840BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
+		7EBB834677FC2F2030EFEAC4BA1B664C /* Pods-StackScrollViewComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 207065DB8840A74E755B659AE7DF183E /* Pods-StackScrollViewComponents_Example-dummy.m */; };
+		8B05C8DF1210D319DFFC2239F41526C2 /* DimensionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89715F1F652F7344FB487BB55C497019 /* DimensionAttribute.swift */; };
+		8CE3E62C0768F0D2BABF7D144D5325D8 /* DimensionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CDA35A7BDCA737CC51E9E5D7D9B03 /* DimensionAttribute+UIKit.swift */; };
+		99F8EA47EB71A58324E2427148A0E40D /* StackScrollViewComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3ECFA5EB7D1CDF005EE86AFE3EB25C /* StackScrollViewComponents-dummy.m */; };
+		A14873121045854241BF73DF57C5DE44 /* PositionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */; };
+		A3C9EA18B37E17078265B3FF9DDF1049 /* StackScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C85108F99677C463E74E15BF70676B /* StackScrollView.swift */; };
+		A8D14BE0C71ED6C4E01E81FF5773D1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
+		AA30115D6F4BD9569243B357FEBAA951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
+		ABAC531E1613DB55998126241F409126 /* StackScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7487CF3099536F2CFB7A6EBA00430168 /* StackScrollView.framework */; };
+		AEE92FC53971BBC34A3A02E964B701FB /* Pods-StackScrollViewComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4543224D5F9FD264B3E2AE841BB5C5 /* Pods-StackScrollViewComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40CA9CC2AFAFEFAF0BA6613E54DA204 /* NSLayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F989A7F1C9674E68153A64C8A7209 /* NSLayoutGuide+Easy.swift */; };
+		C636B6DF5E69AE7A7115F0379E07F528 /* Pods-StackScrollViewComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C05D4A1D43A959C753731ADDD415D /* Pods-StackScrollViewComponents_Tests-dummy.m */; };
+		C807C90D9AC80E4A2F94C66604F51722 /* Item+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA9FD96A9FC29FE465B8D768772437 /* Item+UIKit.swift */; };
+		C881223C845EDF270A21FE3427B681AC /* PositionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111A898394AB9D435FA8ABFDA27F073C /* PositionAttribute+UIKit.swift */; };
+		CE5A84B82017ABDA35A58DE5445C0517 /* NSView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14866D3C8CCDCFEEB4B89C11238C0F /* NSView+Easy.swift */; };
+		CF3FB9E98F3A8BBFD91647CAFE219700 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFADAA7DEAB5D34ACF8F707EF8FF9123 /* Constant.swift */; };
+		DA2F4413750A5677E8A598172378B5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
+		DBB4B0D40A81B6F0CB231A7411E87718 /* DimensionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102E7C28AA08C35E6B6EE9FAC163F9B /* DimensionAttribute+AppKit.swift */; };
+		E08D0D0F47088878B97924F7E3F4FFA4 /* StackScrollViewCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB5704A2EAC2ACF62BFDD42D58C0F5 /* StackScrollViewCellType.swift */; };
+		E0F8BB79EDB6D15B7130B4058C885786 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF59B9E844B360072A6832CBE9693A4 /* Attribute.swift */; };
+		E8A0D7D28DA33A7EAF0BBCFC8DD3B7E0 /* StackScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDC2874FBD476EF92782724AF93480 /* StackScrollView-dummy.m */; };
+		F46BFEFC338EE6F9EC0BB44BB4CF795E /* UIView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F1077D5DDE5EF02D57A3A868C49F2 /* UIView+Easy.swift */; };
+		F67115B61E09A788B23094FA6FA41F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B014ADF33128632C7C10FAA45D557F9 /* Item.swift */; };
+		F70BCFDA9075E2587F5A8FBFE1265CA7 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED383F7106F9B577530A350F8DB2A9E8 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA0E42AA74D336F254DC0A7711AADAD /* EasyPeasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22356B15299484273655E7A5B738A1D2 /* EasyPeasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE953DF2B560B2FF682FD8D3DC6B9C85 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FFD3C0EE06EDEC18919B0B8894E841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B88B9B76FA21E0B69CF8873BB64CA1;
+			remoteInfo = StackScrollViewComponents;
+		};
+		3D779EAA9908E302FF09C08A77C7A5B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DDA3321C6ABD42D44C1BDC2B64C1B3;
+			remoteInfo = StackScrollView;
+		};
+		5C97BC0CA09E05F2664715CA0890762D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223C952D3CD291DE22488C1F159F503B;
+			remoteInfo = EasyPeasy;
+		};
+		74B0A897EA574A2ABF2BC9F14CFBF1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223C952D3CD291DE22488C1F159F503B;
+			remoteInfo = EasyPeasy;
+		};
+		7752DCC51096D5340A6B48C3355A924C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223C952D3CD291DE22488C1F159F503B;
+			remoteInfo = EasyPeasy;
+		};
+		8FE3CE2D522C11383600B4FFB4BCFBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DDA3321C6ABD42D44C1BDC2B64C1B3;
+			remoteInfo = StackScrollView;
+		};
+		EAC55C099CC8109DEF5DF408F95E9B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FBDB3DB01A410EA941112E1CD162D9;
+			remoteInfo = Then;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0122EC45AFA23F353345053726A5F687 /* Pods-StackScrollViewComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0164930056CCE78341B900697D9DF63B /* StackScrollViewComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackScrollViewComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C29734823AD79635B1ACE41352C46E3 /* Pods-StackScrollViewComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StackScrollViewComponents_Tests.modulemap"; sourceTree = "<group>"; };
+		0D1FA90F7697E3D95F004603788661B7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		111A898394AB9D435FA8ABFDA27F073C /* PositionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+UIKit.swift"; path = "EasyPeasy/PositionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		1CB763546121C20CA65736A4B7A53325 /* Pods-StackScrollViewComponents_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1CD3F987BEFC88B1467F460F02BB79E1 /* Pods-StackScrollViewComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackScrollViewComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E4543224D5F9FD264B3E2AE841BB5C5 /* Pods-StackScrollViewComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackScrollViewComponents_Example-umbrella.h"; sourceTree = "<group>"; };
+		1F7529662F65206969AF79C630AFAA16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201CDA35A7BDCA737CC51E9E5D7D9B03 /* DimensionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+UIKit.swift"; path = "EasyPeasy/DimensionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		207065DB8840A74E755B659AE7DF183E /* Pods-StackScrollViewComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackScrollViewComponents_Example-dummy.m"; sourceTree = "<group>"; };
+		22356B15299484273655E7A5B738A1D2 /* EasyPeasy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-umbrella.h"; sourceTree = "<group>"; };
+		269DC53384410C077F39D93C998329E9 /* Pods-StackScrollViewComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackScrollViewComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26F0C7A4EC97395DC0791371CF5CC200 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B014ADF33128632C7C10FAA45D557F9 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = EasyPeasy/Item.swift; sourceTree = "<group>"; };
+		2FA57471540E0F07A55B57B564C061E6 /* Pods-StackScrollViewComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StackScrollViewComponents_Example.modulemap"; sourceTree = "<group>"; };
+		3102E7C28AA08C35E6B6EE9FAC163F9B /* DimensionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+AppKit.swift"; path = "EasyPeasy/DimensionAttribute+AppKit.swift"; sourceTree = "<group>"; };
+		39BA934F978602F756F29D190B523E86 /* Pods-StackScrollViewComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackScrollViewComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BD23637801B16A7C6E61BC2A06A5FAE /* Pods_StackScrollViewComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackScrollViewComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF59B9E844B360072A6832CBE9693A4 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = EasyPeasy/Attribute.swift; sourceTree = "<group>"; };
+		417F989A7F1C9674E68153A64C8A7209 /* NSLayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutGuide+Easy.swift"; path = "EasyPeasy/NSLayoutGuide+Easy.swift"; sourceTree = "<group>"; };
+		42073D4EDF2E6022EECFECA2B8CF25A0 /* Item+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+AppKit.swift"; path = "EasyPeasy/Item+AppKit.swift"; sourceTree = "<group>"; };
+		4A78807CBD213A42F970BBA64DCD3747 /* Pods-StackScrollViewComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackScrollViewComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorStackViewCell.swift; sourceTree = "<group>"; };
+		4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4D710490F9157ABC81AA1F0F83F62596 /* StackScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollView-umbrella.h"; sourceTree = "<group>"; };
+		4FE8BA66B359528832F9818C4319EF79 /* StackScrollViewComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StackScrollViewComponents.modulemap; sourceTree = "<group>"; };
+		514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionAttribute.swift; path = EasyPeasy/PositionAttribute.swift; sourceTree = "<group>"; };
+		5475D4C462E40129A06866A7E1F06290 /* PositionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+AppKit.swift"; path = "EasyPeasy/PositionAttribute+AppKit.swift"; sourceTree = "<group>"; };
+		54C85108F99677C463E74E15BF70676B /* StackScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StackScrollView.swift; sourceTree = "<group>"; };
+		58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB233EF48C07A219248593D8F94DD01 /* StackScrollViewComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackScrollViewComponents.xcconfig; sourceTree = "<group>"; };
+		63154D849DD9B26A26551116DFFAC98C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3ECFA5EB7D1CDF005EE86AFE3EB25C /* StackScrollViewComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StackScrollViewComponents-dummy.m"; sourceTree = "<group>"; };
+		6DFDC2874FBD476EF92782724AF93480 /* StackScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StackScrollView-dummy.m"; sourceTree = "<group>"; };
+		7487CF3099536F2CFB7A6EBA00430168 /* StackScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CA9FD96A9FC29FE465B8D768772437 /* Item+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+UIKit.swift"; path = "EasyPeasy/Item+UIKit.swift"; sourceTree = "<group>"; };
+		7C8C05D4A1D43A959C753731ADDD415D /* Pods-StackScrollViewComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackScrollViewComponents_Tests-dummy.m"; sourceTree = "<group>"; };
+		7EF9E166EC9D683C04A8F59FB204DD70 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then.swift; sourceTree = "<group>"; };
+		80D3ED28FAE84BCD6BEFC8BBFCADF6BE /* Pods-StackScrollViewComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
+		89715F1F652F7344FB487BB55C497019 /* DimensionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimensionAttribute.swift; path = EasyPeasy/DimensionAttribute.swift; sourceTree = "<group>"; };
+		8A501A2EE1C16D42C5DA5E3614D127F8 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991F1077D5DDE5EF02D57A3A868C49F2 /* UIView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Easy.swift"; path = "EasyPeasy/UIView+Easy.swift"; sourceTree = "<group>"; };
+		9A843616B1AF30A922B6002246970F36 /* Pods-StackScrollViewComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9BAB5704A2EAC2ACF62BFDD42D58C0F5 /* StackScrollViewCellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StackScrollViewCellType.swift; sourceTree = "<group>"; };
+		A07D447E07CB5C7A03625855CC61301C /* Pods-StackScrollViewComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A88992BF61510E876DFF52F92A11154C /* StackScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollView-prefix.pch"; sourceTree = "<group>"; };
+		AB796990160A5C793B01FB947E311E70 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = EasyPeasy/Context.swift; sourceTree = "<group>"; };
+		AC7573D4925AE95A09981A7774E3C66C /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Then.modulemap; sourceTree = "<group>"; };
+		ACA022F5F9864562B8903191F1A2BDCF /* StackScrollViewComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollViewComponents-umbrella.h"; sourceTree = "<group>"; };
+		ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.xcconfig; sourceTree = "<group>"; };
+		B0BB0236CAF6778E48BB573227CB58E3 /* EasyPeasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPeasy-dummy.m"; sourceTree = "<group>"; };
+		B0F8833CD6591E24A5DB16C17CAC8CD8 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D3A06442E2406C9D71AA01658DD4C9 /* UILayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Easy.swift"; path = "EasyPeasy/UILayoutGuide+Easy.swift"; sourceTree = "<group>"; };
+		B305177C838E308DBD870B403D7FCEA2 /* Pods-StackScrollViewComponents_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Tests-resources.sh"; sourceTree = "<group>"; };
+		C096103DFFBF8B7875B4EAE26DDDF33F /* EasyPeasy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyPeasy.modulemap; sourceTree = "<group>"; };
+		C7009B9C1DF49DEBBBD70B33AA1C67E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA14F4F7F116EEDDEA46834A60CCC5D2 /* StackScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB239A3EB10574AACCF254A2A9790AAC /* StackScrollViewComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollViewComponents-prefix.pch"; sourceTree = "<group>"; };
+		CFADAA7DEAB5D34ACF8F707EF8FF9123 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = EasyPeasy/Constant.swift; sourceTree = "<group>"; };
+		D20CF88C86839FCC02478707EF55A14C /* CompoundAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundAttribute.swift; path = EasyPeasy/CompoundAttribute.swift; sourceTree = "<group>"; };
+		D5506E48AA27B6C2A1FA04AC0459D7C3 /* ReferenceAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceAttribute.swift; path = EasyPeasy/ReferenceAttribute.swift; sourceTree = "<group>"; };
+		DB8B0E8454FB66739DCD72DBEFCB9D79 /* Pods-StackScrollViewComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackScrollViewComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF083CB499631C09F622828E0BDE192E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4F07E1FD379277FE064C1339B3715D /* Pods-StackScrollViewComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E29B0F0A94CFBF91DE5D29689FCCECA3 /* Pods_StackScrollViewComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackScrollViewComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7260979A467A669FA8255BD41C5F0F6 /* Pods-StackScrollViewComponents_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Example-resources.sh"; sourceTree = "<group>"; };
+		E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPeasy.xcconfig; sourceTree = "<group>"; };
+		EA14866D3C8CCDCFEEB4B89C11238C0F /* NSView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Easy.swift"; path = "EasyPeasy/NSView+Easy.swift"; sourceTree = "<group>"; };
+		ECF90481E6D7F1FE19594B019E7ACCF9 /* EasyPeasy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-prefix.pch"; sourceTree = "<group>"; };
+		ED383F7106F9B577530A350F8DB2A9E8 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		F081E5464550F2AE31885EC0F9728521 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = EasyPeasy/Priority.swift; sourceTree = "<group>"; };
+		F10C1B4C4C2BB7352FD5C251283CCDE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AD0997E891E8385E9A3B711109C429 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		F33BD8A729771C4A31C5462FDF2D6416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E8AEFAB915265C060E20C4CD463494 /* StackScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackScrollView.xcconfig; sourceTree = "<group>"; };
+		F98B1D5CE0EC0EFCF8DE6422BEE9ADD8 /* StackScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StackScrollView.modulemap; sourceTree = "<group>"; };
+		F9B65689DDBB0CE626895BBB24379439 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = EasyPeasy/Node.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EB31787845DA382F56370E820A4458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DE0D61DD6740119F169414DDEF455C /* EasyPeasy.framework in Frameworks */,
+				5685D4B8D3859582FCB4FC935574D799 /* Foundation.framework in Frameworks */,
+				ABAC531E1613DB55998126241F409126 /* StackScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933A80892EF5E4736B6EEF86F028000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D14BE0C71ED6C4E01E81FF5773D1C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9667E39FBFC6A5D57BF518C314EF7CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A990919E298AC4FDD3D293AABE964D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EABAC035C9A2148669BD51C02F0D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746B1AAEA4005A7597DE1928F18840BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4B2D14572F405FC5F7513BB35D018B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE953DF2B560B2FF682FD8D3DC6B9C85 /* EasyPeasy.framework in Frameworks */,
+				AA30115D6F4BD9569243B357FEBAA951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5962E7A83AA45F0DD4987249638BA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2F4413750A5677E8A598172378B5C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205AC1ED9A474E6AE06BF50E3627F675 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C096103DFFBF8B7875B4EAE26DDDF33F /* EasyPeasy.modulemap */,
+				E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */,
+				B0BB0236CAF6778E48BB573227CB58E3 /* EasyPeasy-dummy.m */,
+				ECF90481E6D7F1FE19594B019E7ACCF9 /* EasyPeasy-prefix.pch */,
+				22356B15299484273655E7A5B738A1D2 /* EasyPeasy-umbrella.h */,
+				F10C1B4C4C2BB7352FD5C251283CCDE9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyPeasy";
+			sourceTree = "<group>";
+		};
+		211F42EAE1109612D1B52438EE6C7E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F0C7A4EC97395DC0791371CF5CC200 /* EasyPeasy.framework */,
+				E29B0F0A94CFBF91DE5D29689FCCECA3 /* Pods_StackScrollViewComponents_Example.framework */,
+				3BD23637801B16A7C6E61BC2A06A5FAE /* Pods_StackScrollViewComponents_Tests.framework */,
+				CA14F4F7F116EEDDEA46834A60CCC5D2 /* StackScrollView.framework */,
+				0164930056CCE78341B900697D9DF63B /* StackScrollViewComponents.framework */,
+				B0F8833CD6591E24A5DB16C17CAC8CD8 /* Then.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA6D91C58603FA2A64F817789624818 /* StackScrollViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CD468D831F00347B8B420814AA0E0 /* Classes */,
+			);
+			path = StackScrollViewComponents;
+			sourceTree = "<group>";
+		};
+		3019A50816AA66D3557F3229F9B8B460 /* StackScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4917A1C07765622961FFFFB067DB04EE /* StackScrollView */,
+				3FE70B15F191A83D264F169B2E27E830 /* Support Files */,
+			);
+			name = StackScrollView;
+			path = ../../Vendor/StackScrollView;
+			sourceTree = "<group>";
+		};
+		37DE445B48F4B81884D18AC941124B7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54C85108F99677C463E74E15BF70676B /* StackScrollView.swift */,
+				9BAB5704A2EAC2ACF62BFDD42D58C0F5 /* StackScrollViewCellType.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C6CD468D831F00347B8B420814AA0E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D1FA90F7697E3D95F004603788661B7 /* ReplaceMe.swift */,
+				4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */,
+				4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */,
+				4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3EC6B3E368A4B94E073557E6DC891F8C /* Pods-StackScrollViewComponents_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF083CB499631C09F622828E0BDE192E /* Info.plist */,
+				0C29734823AD79635B1ACE41352C46E3 /* Pods-StackScrollViewComponents_Tests.modulemap */,
+				39BA934F978602F756F29D190B523E86 /* Pods-StackScrollViewComponents_Tests-acknowledgements.markdown */,
+				269DC53384410C077F39D93C998329E9 /* Pods-StackScrollViewComponents_Tests-acknowledgements.plist */,
+				7C8C05D4A1D43A959C753731ADDD415D /* Pods-StackScrollViewComponents_Tests-dummy.m */,
+				1CB763546121C20CA65736A4B7A53325 /* Pods-StackScrollViewComponents_Tests-frameworks.sh */,
+				B305177C838E308DBD870B403D7FCEA2 /* Pods-StackScrollViewComponents_Tests-resources.sh */,
+				1CD3F987BEFC88B1467F460F02BB79E1 /* Pods-StackScrollViewComponents_Tests-umbrella.h */,
+				A07D447E07CB5C7A03625855CC61301C /* Pods-StackScrollViewComponents_Tests.debug.xcconfig */,
+				0122EC45AFA23F353345053726A5F687 /* Pods-StackScrollViewComponents_Tests.release.xcconfig */,
+			);
+			name = "Pods-StackScrollViewComponents_Tests";
+			path = "Target Support Files/Pods-StackScrollViewComponents_Tests";
+			sourceTree = "<group>";
+		};
+		3FE70B15F191A83D264F169B2E27E830 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63154D849DD9B26A26551116DFFAC98C /* Info.plist */,
+				F98B1D5CE0EC0EFCF8DE6422BEE9ADD8 /* StackScrollView.modulemap */,
+				F4E8AEFAB915265C060E20C4CD463494 /* StackScrollView.xcconfig */,
+				6DFDC2874FBD476EF92782724AF93480 /* StackScrollView-dummy.m */,
+				A88992BF61510E876DFF52F92A11154C /* StackScrollView-prefix.pch */,
+				4D710490F9157ABC81AA1F0F83F62596 /* StackScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Example/Pods/Target Support Files/StackScrollView";
+			sourceTree = "<group>";
+		};
+		4917A1C07765622961FFFFB067DB04EE /* StackScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				37DE445B48F4B81884D18AC941124B7A /* Classes */,
+			);
+			path = StackScrollView;
+			sourceTree = "<group>";
+		};
+		568557A439BB60F3D91EEE4BDCE4E3A3 /* Pods-StackScrollViewComponents_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F7529662F65206969AF79C630AFAA16 /* Info.plist */,
+				2FA57471540E0F07A55B57B564C061E6 /* Pods-StackScrollViewComponents_Example.modulemap */,
+				DB8B0E8454FB66739DCD72DBEFCB9D79 /* Pods-StackScrollViewComponents_Example-acknowledgements.markdown */,
+				4A78807CBD213A42F970BBA64DCD3747 /* Pods-StackScrollViewComponents_Example-acknowledgements.plist */,
+				207065DB8840A74E755B659AE7DF183E /* Pods-StackScrollViewComponents_Example-dummy.m */,
+				80D3ED28FAE84BCD6BEFC8BBFCADF6BE /* Pods-StackScrollViewComponents_Example-frameworks.sh */,
+				E7260979A467A669FA8255BD41C5F0F6 /* Pods-StackScrollViewComponents_Example-resources.sh */,
+				1E4543224D5F9FD264B3E2AE841BB5C5 /* Pods-StackScrollViewComponents_Example-umbrella.h */,
+				DF4F07E1FD379277FE064C1339B3715D /* Pods-StackScrollViewComponents_Example.debug.xcconfig */,
+				9A843616B1AF30A922B6002246970F36 /* Pods-StackScrollViewComponents_Example.release.xcconfig */,
+			);
+			name = "Pods-StackScrollViewComponents_Example";
+			path = "Target Support Files/Pods-StackScrollViewComponents_Example";
+			sourceTree = "<group>";
+		};
+		573F27248A644A072F921E160E0C6B9C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3019A50816AA66D3557F3229F9B8B460 /* StackScrollView */,
+				771F237110FFFF8F225B2878D1E4E3A0 /* StackScrollViewComponents */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		594ECC1E124C1B95DDA33E6D62106564 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9396327D9E54F694F6A693EBF743B2A7 /* EasyPeasy */,
+				A55827FAA56D0572F338A26AB0AECF54 /* Then */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C8EF9226A398B96951DA9C669ED606C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				568557A439BB60F3D91EEE4BDCE4E3A3 /* Pods-StackScrollViewComponents_Example */,
+				3EC6B3E368A4B94E073557E6DC891F8C /* Pods-StackScrollViewComponents_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		771F237110FFFF8F225B2878D1E4E3A0 /* StackScrollViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2BA6D91C58603FA2A64F817789624818 /* StackScrollViewComponents */,
+				F09B48A62FAB68E1FE4C935A1BF6075A /* Support Files */,
+			);
+			name = StackScrollViewComponents;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				573F27248A644A072F921E160E0C6B9C /* Development Pods */,
+				A8C5723F767BAAF2D318ED947D6C6F30 /* Frameworks */,
+				594ECC1E124C1B95DDA33E6D62106564 /* Pods */,
+				211F42EAE1109612D1B52438EE6C7E52 /* Products */,
+				5C8EF9226A398B96951DA9C669ED606C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9396327D9E54F694F6A693EBF743B2A7 /* EasyPeasy */ = {
+			isa = PBXGroup;
+			children = (
+				3FF59B9E844B360072A6832CBE9693A4 /* Attribute.swift */,
+				D20CF88C86839FCC02478707EF55A14C /* CompoundAttribute.swift */,
+				CFADAA7DEAB5D34ACF8F707EF8FF9123 /* Constant.swift */,
+				AB796990160A5C793B01FB947E311E70 /* Context.swift */,
+				89715F1F652F7344FB487BB55C497019 /* DimensionAttribute.swift */,
+				3102E7C28AA08C35E6B6EE9FAC163F9B /* DimensionAttribute+AppKit.swift */,
+				201CDA35A7BDCA737CC51E9E5D7D9B03 /* DimensionAttribute+UIKit.swift */,
+				2B014ADF33128632C7C10FAA45D557F9 /* Item.swift */,
+				42073D4EDF2E6022EECFECA2B8CF25A0 /* Item+AppKit.swift */,
+				79CA9FD96A9FC29FE465B8D768772437 /* Item+UIKit.swift */,
+				F9B65689DDBB0CE626895BBB24379439 /* Node.swift */,
+				417F989A7F1C9674E68153A64C8A7209 /* NSLayoutGuide+Easy.swift */,
+				EA14866D3C8CCDCFEEB4B89C11238C0F /* NSView+Easy.swift */,
+				514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */,
+				5475D4C462E40129A06866A7E1F06290 /* PositionAttribute+AppKit.swift */,
+				111A898394AB9D435FA8ABFDA27F073C /* PositionAttribute+UIKit.swift */,
+				F081E5464550F2AE31885EC0F9728521 /* Priority.swift */,
+				D5506E48AA27B6C2A1FA04AC0459D7C3 /* ReferenceAttribute.swift */,
+				B2D3A06442E2406C9D71AA01658DD4C9 /* UILayoutGuide+Easy.swift */,
+				991F1077D5DDE5EF02D57A3A868C49F2 /* UIView+Easy.swift */,
+				205AC1ED9A474E6AE06BF50E3627F675 /* Support Files */,
+			);
+			path = EasyPeasy;
+			sourceTree = "<group>";
+		};
+		A3906722A84E1F8F7576C220087EF9E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F33BD8A729771C4A31C5462FDF2D6416 /* Info.plist */,
+				AC7573D4925AE95A09981A7774E3C66C /* Then.modulemap */,
+				ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */,
+				F2AD0997E891E8385E9A3B711109C429 /* Then-dummy.m */,
+				8A501A2EE1C16D42C5DA5E3614D127F8 /* Then-prefix.pch */,
+				ED383F7106F9B577530A350F8DB2A9E8 /* Then-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+		A55827FAA56D0572F338A26AB0AECF54 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				7EF9E166EC9D683C04A8F59FB204DD70 /* Then.swift */,
+				A3906722A84E1F8F7576C220087EF9E6 /* Support Files */,
+			);
+			path = Then;
+			sourceTree = "<group>";
+		};
+		A8C5723F767BAAF2D318ED947D6C6F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */,
+				7487CF3099536F2CFB7A6EBA00430168 /* StackScrollView.framework */,
+				C03D07D3A753A9790E94D6F407D68374 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03D07D3A753A9790E94D6F407D68374 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F09B48A62FAB68E1FE4C935A1BF6075A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7009B9C1DF49DEBBBD70B33AA1C67E9 /* Info.plist */,
+				4FE8BA66B359528832F9818C4319EF79 /* StackScrollViewComponents.modulemap */,
+				5BB233EF48C07A219248593D8F94DD01 /* StackScrollViewComponents.xcconfig */,
+				6D3ECFA5EB7D1CDF005EE86AFE3EB25C /* StackScrollViewComponents-dummy.m */,
+				CB239A3EB10574AACCF254A2A9790AAC /* StackScrollViewComponents-prefix.pch */,
+				ACA022F5F9864562B8903191F1A2BDCF /* StackScrollViewComponents-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StackScrollViewComponents";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62D0EB46457B0E7A7655D3971A7D26DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE92FC53971BBC34A3A02E964B701FB /* Pods-StackScrollViewComponents_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670C98193E4B3D8940186F3C0D046260 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525F78AEAAC7ABF3D28ADC9DD8C83224 /* Pods-StackScrollViewComponents_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640807F148A51FC4CE8E4A34A96229D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70BCFDA9075E2587F5A8FBFE1265CA7 /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7B96589FA64D0C7A09F887A2AFCEAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A35A10D3CB96C994387BFD7E4956C90 /* StackScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C8FCE8D33E42034C1EB583288D121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455AF6A97E227E2FADDEC6E71CA63FA7 /* StackScrollViewComponents-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F074EEFD7DA245B25E2A27E4A865EF58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA0E42AA74D336F254DC0A7711AADAD /* EasyPeasy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20B88B9B76FA21E0B69CF8873BB64CA1 /* StackScrollViewComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38C33659F47B0DDD2D43420989892E5 /* Build configuration list for PBXNativeTarget "StackScrollViewComponents" */;
+			buildPhases = (
+				C4C143D078B2D064E7170C100A809F9E /* Sources */,
+				91EB31787845DA382F56370E820A4458 /* Frameworks */,
+				DE5C8FCE8D33E42034C1EB583288D121 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0465A3FF961ADB1996DD7E03CD54C9CF /* PBXTargetDependency */,
+				86D332592E7B8D523586664A626E74C7 /* PBXTargetDependency */,
+			);
+			name = StackScrollViewComponents;
+			productName = StackScrollViewComponents;
+			productReference = 0164930056CCE78341B900697D9DF63B /* StackScrollViewComponents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		223C952D3CD291DE22488C1F159F503B /* EasyPeasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E139BA01DA61BDA37DB2989E5338681B /* Build configuration list for PBXNativeTarget "EasyPeasy" */;
+			buildPhases = (
+				EAEB94E9D8D0C8A2C4804D73C466C6A0 /* Sources */,
+				A7EABAC035C9A2148669BD51C02F0D93 /* Frameworks */,
+				F074EEFD7DA245B25E2A27E4A865EF58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPeasy;
+			productName = EasyPeasy;
+			productReference = 26F0C7A4EC97395DC0791371CF5CC200 /* EasyPeasy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34948E137FCBB59D66A50A6646939C9C /* Pods-StackScrollViewComponents_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EEA708636A7AFA7074100C997B3631 /* Build configuration list for PBXNativeTarget "Pods-StackScrollViewComponents_Tests" */;
+			buildPhases = (
+				8CAB757E9B67D7AB64752632F0DF0F88 /* Sources */,
+				B5962E7A83AA45F0DD4987249638BA50 /* Frameworks */,
+				670C98193E4B3D8940186F3C0D046260 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StackScrollViewComponents_Tests";
+			productName = "Pods-StackScrollViewComponents_Tests";
+			productReference = 3BD23637801B16A7C6E61BC2A06A5FAE /* Pods_StackScrollViewComponents_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52DDA3321C6ABD42D44C1BDC2B64C1B3 /* StackScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B297122EFE3CD9C04B0A9B4D1C137037 /* Build configuration list for PBXNativeTarget "StackScrollView" */;
+			buildPhases = (
+				8A580458CF326C749C7F9CB0F1769237 /* Sources */,
+				AB4B2D14572F405FC5F7513BB35D018B /* Frameworks */,
+				AE7B96589FA64D0C7A09F887A2AFCEAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F6913CC79D49D419F65DED345EA59C /* PBXTargetDependency */,
+			);
+			name = StackScrollView;
+			productName = StackScrollView;
+			productReference = CA14F4F7F116EEDDEA46834A60CCC5D2 /* StackScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94FBDB3DB01A410EA941112E1CD162D9 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4876A584C904B304C8E593D72A0DA1C1 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				628E07BBFEA1A9C04F455AA9E18F299E /* Sources */,
+				9667E39FBFC6A5D57BF518C314EF7CA1 /* Frameworks */,
+				A640807F148A51FC4CE8E4A34A96229D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = B0F8833CD6591E24A5DB16C17CAC8CD8 /* Then.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAC3BB8F8CA344036911F134F9722E71 /* Pods-StackScrollViewComponents_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12648BD72D7DE5C066AE77D6CE3C5FAB /* Build configuration list for PBXNativeTarget "Pods-StackScrollViewComponents_Example" */;
+			buildPhases = (
+				1D8271F213976EC63838B9EC1C78E49A /* Sources */,
+				933A80892EF5E4736B6EEF86F028000E /* Frameworks */,
+				62D0EB46457B0E7A7655D3971A7D26DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0AB66E60C0D8970D37722DA4C57FED0 /* PBXTargetDependency */,
+				16B2ED9E906A808FA2C2466B6E38A2AF /* PBXTargetDependency */,
+				1ABAB6D937FBC8A9A5B1F1BABDFCC6E7 /* PBXTargetDependency */,
+				6FAE085E83954AD03ADCD71A07EE2167 /* PBXTargetDependency */,
+			);
+			name = "Pods-StackScrollViewComponents_Example";
+			productName = "Pods-StackScrollViewComponents_Example";
+			productReference = E29B0F0A94CFBF91DE5D29689FCCECA3 /* Pods_StackScrollViewComponents_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 211F42EAE1109612D1B52438EE6C7E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223C952D3CD291DE22488C1F159F503B /* EasyPeasy */,
+				EAC3BB8F8CA344036911F134F9722E71 /* Pods-StackScrollViewComponents_Example */,
+				34948E137FCBB59D66A50A6646939C9C /* Pods-StackScrollViewComponents_Tests */,
+				52DDA3321C6ABD42D44C1BDC2B64C1B3 /* StackScrollView */,
+				20B88B9B76FA21E0B69CF8873BB64CA1 /* StackScrollViewComponents */,
+				94FBDB3DB01A410EA941112E1CD162D9 /* Then */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8271F213976EC63838B9EC1C78E49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBB834677FC2F2030EFEAC4BA1B664C /* Pods-StackScrollViewComponents_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628E07BBFEA1A9C04F455AA9E18F299E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA987CB31D0F2824FDA4348065F4C16 /* Then-dummy.m in Sources */,
+				72A01CB67AAD9F2C917C9186C3FCB4C4 /* Then.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A580458CF326C749C7F9CB0F1769237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A0D7D28DA33A7EAF0BBCFC8DD3B7E0 /* StackScrollView-dummy.m in Sources */,
+				A3C9EA18B37E17078265B3FF9DDF1049 /* StackScrollView.swift in Sources */,
+				E08D0D0F47088878B97924F7E3F4FFA4 /* StackScrollViewCellType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAB757E9B67D7AB64752632F0DF0F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C636B6DF5E69AE7A7115F0379E07F528 /* Pods-StackScrollViewComponents_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C143D078B2D064E7170C100A809F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2A6A221D74BB550055F346 /* LabelStackScrollViewCell.swift in Sources */,
+				743C1B674CDCEE24B4D36163EFA5A755 /* ReplaceMe.swift in Sources */,
+				4B2A6A241D74BC040055F346 /* SeparatorStackViewCell.swift in Sources */,
+				4B2A6A261D74BEC30055F346 /* SpaceStackScrollViewCell.swift in Sources */,
+				99F8EA47EB71A58324E2427148A0E40D /* StackScrollViewComponents-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEB94E9D8D0C8A2C4804D73C466C6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F8BB79EDB6D15B7130B4058C885786 /* Attribute.swift in Sources */,
+				355F3E122A4FD19182581929248BE5AF /* CompoundAttribute.swift in Sources */,
+				CF3FB9E98F3A8BBFD91647CAFE219700 /* Constant.swift in Sources */,
+				131B086640309E45D7AB282DE92AAF9B /* Context.swift in Sources */,
+				DBB4B0D40A81B6F0CB231A7411E87718 /* DimensionAttribute+AppKit.swift in Sources */,
+				8CE3E62C0768F0D2BABF7D144D5325D8 /* DimensionAttribute+UIKit.swift in Sources */,
+				8B05C8DF1210D319DFFC2239F41526C2 /* DimensionAttribute.swift in Sources */,
+				589A8E124DEEC2A14EE0868FB5678C56 /* EasyPeasy-dummy.m in Sources */,
+				447AC19C3E732156FCBFFF5B814A65CF /* Item+AppKit.swift in Sources */,
+				C807C90D9AC80E4A2F94C66604F51722 /* Item+UIKit.swift in Sources */,
+				F67115B61E09A788B23094FA6FA41F94 /* Item.swift in Sources */,
+				06C16EA14052FE9D9D2D8A1DFED4704F /* Node.swift in Sources */,
+				C40CA9CC2AFAFEFAF0BA6613E54DA204 /* NSLayoutGuide+Easy.swift in Sources */,
+				CE5A84B82017ABDA35A58DE5445C0517 /* NSView+Easy.swift in Sources */,
+				2CB9A2570A1F3E110E68C9DB5BA88C8F /* PositionAttribute+AppKit.swift in Sources */,
+				C881223C845EDF270A21FE3427B681AC /* PositionAttribute+UIKit.swift in Sources */,
+				A14873121045854241BF73DF57C5DE44 /* PositionAttribute.swift in Sources */,
+				5C6D639A9B01FD35544BA88455275AF0 /* Priority.swift in Sources */,
+				3BCFF771A59A78D72033380FDBFBBBD4 /* ReferenceAttribute.swift in Sources */,
+				5E6B7BB0F897F7DCFA1B889DC7632462 /* UILayoutGuide+Easy.swift in Sources */,
+				F46BFEFC338EE6F9EC0BB44BB4CF795E /* UIView+Easy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0465A3FF961ADB1996DD7E03CD54C9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyPeasy;
+			target = 223C952D3CD291DE22488C1F159F503B /* EasyPeasy */;
+			targetProxy = 74B0A897EA574A2ABF2BC9F14CFBF1C7 /* PBXContainerItemProxy */;
+		};
+		16B2ED9E906A808FA2C2466B6E38A2AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StackScrollView;
+			target = 52DDA3321C6ABD42D44C1BDC2B64C1B3 /* StackScrollView */;
+			targetProxy = 3D779EAA9908E302FF09C08A77C7A5B9 /* PBXContainerItemProxy */;
+		};
+		1ABAB6D937FBC8A9A5B1F1BABDFCC6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StackScrollViewComponents;
+			target = 20B88B9B76FA21E0B69CF8873BB64CA1 /* StackScrollViewComponents */;
+			targetProxy = 32FFD3C0EE06EDEC18919B0B8894E841 /* PBXContainerItemProxy */;
+		};
+		6FAE085E83954AD03ADCD71A07EE2167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = 94FBDB3DB01A410EA941112E1CD162D9 /* Then */;
+			targetProxy = EAC55C099CC8109DEF5DF408F95E9B8E /* PBXContainerItemProxy */;
+		};
+		86D332592E7B8D523586664A626E74C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StackScrollView;
+			target = 52DDA3321C6ABD42D44C1BDC2B64C1B3 /* StackScrollView */;
+			targetProxy = 8FE3CE2D522C11383600B4FFB4BCFBD4 /* PBXContainerItemProxy */;
+		};
+		95F6913CC79D49D419F65DED345EA59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyPeasy;
+			target = 223C952D3CD291DE22488C1F159F503B /* EasyPeasy */;
+			targetProxy = 7752DCC51096D5340A6B48C3355A924C /* PBXContainerItemProxy */;
+		};
+		A0AB66E60C0D8970D37722DA4C57FED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyPeasy;
+			target = 223C952D3CD291DE22488C1F159F503B /* EasyPeasy */;
+			targetProxy = 5C97BC0CA09E05F2664715CA0890762D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204AD354349E64BA87D81C57FF33CE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A843616B1AF30A922B6002246970F36 /* Pods-StackScrollViewComponents_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StackScrollViewComponents_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackScrollViewComponents_Example/Pods-StackScrollViewComponents_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StackScrollViewComponents_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		309B1FF7EC8E2CFEB291DF7BD4E24D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AED726F6126D064D8F3144BF797C65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyPeasy/EasyPeasy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyPeasy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyPeasy/EasyPeasy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyPeasy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		915B22F436D0E4F3575B44F7726D5856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A143421DD8D1C0C12A149B27B4006D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E8AEFAB915265C060E20C4CD463494 /* StackScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StackScrollView/StackScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StackScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StackScrollView/StackScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = StackScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B13A8556E5D6E257A1574453C65778E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0122EC45AFA23F353345053726A5F687 /* Pods-StackScrollViewComponents_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StackScrollViewComponents_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackScrollViewComponents_Tests/Pods-StackScrollViewComponents_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StackScrollViewComponents_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5150CE12F598DE960E5B5937626987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4F07E1FD379277FE064C1339B3715D /* Pods-StackScrollViewComponents_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StackScrollViewComponents_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackScrollViewComponents_Example/Pods-StackScrollViewComponents_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StackScrollViewComponents_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7501CA596A7B5F85C6DDADD71713581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E8AEFAB915265C060E20C4CD463494 /* StackScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StackScrollView/StackScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StackScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StackScrollView/StackScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = StackScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B80A055861AFAF769D5C2CE7461A0763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB233EF48C07A219248593D8F94DD01 /* StackScrollViewComponents.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StackScrollViewComponents/StackScrollViewComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StackScrollViewComponents/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StackScrollViewComponents/StackScrollViewComponents.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = StackScrollViewComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8712A62F22218E12EED1F5680DDE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyPeasy/EasyPeasy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyPeasy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyPeasy/EasyPeasy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EasyPeasy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD4121224C7CA2C99AA3EB8054DA32B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB233EF48C07A219248593D8F94DD01 /* StackScrollViewComponents.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/StackScrollViewComponents/StackScrollViewComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StackScrollViewComponents/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StackScrollViewComponents/StackScrollViewComponents.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = StackScrollViewComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FFC2817D03F28B3BE1510471E455B2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07D447E07CB5C7A03625855CC61301C /* Pods-StackScrollViewComponents_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StackScrollViewComponents_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackScrollViewComponents_Tests/Pods-StackScrollViewComponents_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StackScrollViewComponents_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12648BD72D7DE5C066AE77D6CE3C5FAB /* Build configuration list for PBXNativeTarget "Pods-StackScrollViewComponents_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5150CE12F598DE960E5B5937626987D /* Debug */,
+				204AD354349E64BA87D81C57FF33CE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4876A584C904B304C8E593D72A0DA1C1 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915B22F436D0E4F3575B44F7726D5856 /* Debug */,
+				309B1FF7EC8E2CFEB291DF7BD4E24D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B297122EFE3CD9C04B0A9B4D1C137037 /* Build configuration list for PBXNativeTarget "StackScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7501CA596A7B5F85C6DDADD71713581 /* Debug */,
+				A143421DD8D1C0C12A149B27B4006D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EEA708636A7AFA7074100C997B3631 /* Build configuration list for PBXNativeTarget "Pods-StackScrollViewComponents_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC2817D03F28B3BE1510471E455B2A2 /* Debug */,
+				B13A8556E5D6E257A1574453C65778E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E139BA01DA61BDA37DB2989E5338681B /* Build configuration list for PBXNativeTarget "EasyPeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8712A62F22218E12EED1F5680DDE96F /* Debug */,
+				8AED726F6126D064D8F3144BF797C65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38C33659F47B0DDD2D43420989892E5 /* Build configuration list for PBXNativeTarget "StackScrollViewComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80A055861AFAF769D5C2CE7461A0763 /* Debug */,
+				CD4121224C7CA2C99AA3EB8054DA32B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

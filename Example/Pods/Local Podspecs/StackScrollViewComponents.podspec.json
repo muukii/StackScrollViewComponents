@@ -1,0 +1,27 @@
+{
+  "name": "StackScrollViewComponents",
+  "version": "0.1.0",
+  "summary": "A short description of StackScrollViewComponents.",
+  "homepage": "https://github.com/muukii/StackScrollViewComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muukii": "m@muukii.me"
+  },
+  "source": {
+    "git": "https://github.com/muukii/StackScrollViewComponents.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/muukii0803",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StackScrollViewComponents/Classes/**/*",
+  "dependencies": {
+    "StackScrollView": [
+
+    ]
+  }
+}

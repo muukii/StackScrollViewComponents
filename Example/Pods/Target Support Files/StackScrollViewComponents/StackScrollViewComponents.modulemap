@@ -1,0 +1,6 @@
+framework module StackScrollViewComponents {
+  umbrella header "StackScrollViewComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

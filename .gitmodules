@@ -1,0 +1,3 @@
+[submodule "Vendor/StackScrollView"]
+	path = Vendor/StackScrollView
+	url = https://github.com/muukii/StackScrollView

@@ -2,10 +2,12 @@ use_frameworks!
 
 target 'StackScrollViewComponents_Example' do
   pod 'StackScrollViewComponents', :path => '../'
+  pod 'StackScrollView', path: '../Vendor/StackScrollView/'
+  pod 'Then'
 
   target 'StackScrollViewComponents_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end
