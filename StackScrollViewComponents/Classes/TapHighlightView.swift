@@ -21,16 +21,24 @@ public class TapHighlightView: UIControl {
     
     public override var highlighted: Bool {
         get {
+            
             return super.highlighted
         }
         set {
+            
             super.highlighted = newValue
-            if newValue {
+            
+            UIView.animateWithDuration(0.2, delay: 0, options: [.BeginFromCurrentState, .AllowUserInteraction], animations: { 
                 
-                self.backgroundColor = UIColor(white: 0, alpha: 0.1)
-            } else {
-                
-                self.backgroundColor = UIColor(white: 0, alpha: 0)
+                if newValue {
+                    
+                    self.backgroundColor = UIColor(white: 0, alpha: 0.1)
+                } else {
+                    
+                    self.backgroundColor = UIColor(white: 0, alpha: 0)
+                }
+            }) { (finish) in
+                    
             }
         }
     }

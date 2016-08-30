@@ -19,49 +19,71 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let labelCell = LabelStackViewCell().then { cell in
-            cell.titleLabel.text = "Hiroshi"
-            cell.detailLabel.text = "Kimura"
+        let eventTitleTextFieldCell = TextFieldStackViewCell(placeholder: "Title").then { cell in
+            cell.valueChanged = { string in
+                
+            }
+        }
+        
+        let locationTextFieldCell = TextFieldStackViewCell(placeholder: "Location").then { cell in
+            cell.valueChanged = { string in
+                
+            }
+        }
+        
+        let startTimeCell = DateLabelPickerStackViewCell()
+        let endTimeCell = DateLabelPickerStackViewCell()
+        
+        let repeatCell = DiscrosureStackViewCell().then { cell in
+            cell.titleLabel.text = "Repeat"
+            cell.valueLabel.text = "Never"
+            cell.accessoryImageView.image = UIImage(named: "next")
+            cell.accessoryImageView.tintColor = UIColor(white: 0.8, alpha: 1)
+            cell.tap = {
+                print("tap Repeat")
+            }
+        }
+        
+        let travelTime = DiscrosureStackViewCell().then { cell in
+            cell.titleLabel.text = "Travel Time"
+            cell.valueLabel.text = "None"
+            cell.accessoryImageView.image = UIImage(named: "next")
+            cell.accessoryImageView.tintColor = UIColor(white: 0.8, alpha: 1)
+            cell.tap = {
+                print("tap Travel")
+            }
         }
         
         let switchCell = SwitchStackViewCell().then { cell in
-            cell.titleLabel.text = "Hiroshi"
-            cell.valueChanged = { on in
+            cell.titleLabel.text = "All-day"
+            cell.valueChanged = { [unowned travelTime] on in
                 
-                labelCell.setHidden(on, animated: true)
+                travelTime.setHidden(on, animated: true)
             }
         }
         
-        let labelFromTextCell = LabelStackViewCell().then { cell in
-            cell.titleLabel.text = "Hiroshi"
-            cell.detailLabel.text = "Kimura"
-        }
-        
-        let textFieldCell = TextFieldStackViewCell().then { cell in
-            cell.titleLabel.text = "Hiroshi"
-            cell.valueChanged = { string in
-                
-                labelFromTextCell.titleLabel.text = string
-            }
-        }
+        stackScrollView.backgroundColor = UIColor(white: 0.95, alpha: 1)
                         
         stackScrollView.append(
             views: [
+                SpaceStackViewCell(space: 64),
                 SeparatorStackViewCell(),
-                labelCell,
-                SeparatorStackViewCell(leftMargin: 30),
+                eventTitleTextFieldCell,
+                SeparatorStackViewCell(leftMargin: 16),
+                locationTextFieldCell,
+                SeparatorStackViewCell(),
+                SpaceStackViewCell(space: 36),
+                SeparatorStackViewCell(),
                 switchCell,
-                SpaceStackViewCell(space: 30).then {
-                    $0.backgroundColor = UIColor.brownColor()
-                },
-                SeparatorStackViewCell(leftMargin: 30),
-                labelFromTextCell,
-                SeparatorStackViewCell(leftMargin: 30),
-                textFieldCell,
+                SeparatorStackViewCell(leftMargin: 16),
+                startTimeCell,
+                SeparatorStackViewCell(leftMargin: 16),
+                endTimeCell,
+                SeparatorStackViewCell(leftMargin: 16),
+                repeatCell,
+                SeparatorStackViewCell(leftMargin: 16),
+                travelTime,
                 SeparatorStackViewCell(),
-                DateLabelPickerStackViewCell(),
-                SeparatorStackViewCell(),
-                DateLabelPickerStackViewCell(),
             ],
             animated: false)
         
@@ -73,90 +95,4 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var stackScrollView: StackScrollView!
-}
-
-class SwitchStackViewCell: UIView, StackScrollViewCellType {
-    
-    var valueChanged: (Bool) -> Void = { _ in }
-    
-    init() {
-        super.init(frame: .zero)
-        
-        addSubview(titleLabel)
-        addSubview(switchView)
-        
-        titleLabel <- [
-            Left(8),
-            CenterY(),
-        ]
-        
-        switchView <- [
-            Right(8),
-            CenterY(),
-        ]
-        
-        switchView.addTarget(self, action: #selector(switchValueChanged), forControlEvents: .ValueChanged)
-    }
-    
-    override func intrinsicContentSize() -> CGSize {
-        return CGSize(width: UIViewNoIntrinsicMetric, height: 60)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    let titleLabel = UILabel()
-    
-    let switchView = UISwitch()
-    
-    @objc private func switchValueChanged() {
-        
-        valueChanged(switchView.on)
-    }
-}
-
-class TextFieldStackViewCell: UIView, StackScrollViewCellType {
-    
-    var valueChanged: (String) -> Void = { _ in }
-    
-    init() {
-        super.init(frame: .zero)
-        
-        addSubview(titleLabel)
-        addSubview(textField)
-        
-        titleLabel.setContentHuggingPriority(950, forAxis: .Horizontal)
-        titleLabel <- [
-            Left(8),
-            CenterY(),
-        ]
-        
-        textField <- [
-            Left(8).to(titleLabel, .Right),
-            Right(8),
-            CenterY(),
-        ]
-        
-        textField.backgroundColor = UIColor(white: 0, alpha: 0.5)
-        
-        textField.addTarget(self, action: #selector(textChanged), forControlEvents: .EditingChanged)
-    }
-    
-    override func intrinsicContentSize() -> CGSize {
-        return CGSize(width: UIViewNoIntrinsicMetric, height: 60)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    let titleLabel = UILabel()
-    
-    let textField = UITextField()
-    
-    @objc private func textChanged() {
-        
-        valueChanged(textField.text ?? "")
-    }
 }

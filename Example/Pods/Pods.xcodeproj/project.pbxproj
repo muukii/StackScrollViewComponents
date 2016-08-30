@@ -7,55 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06C16EA14052FE9D9D2D8A1DFED4704F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B65689DDBB0CE626895BBB24379439 /* Node.swift */; };
+		06C16EA14052FE9D9D2D8A1DFED4704F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19F58412B43324103031B79CFF78EA /* Node.swift */; };
 		10A990919E298AC4FDD3D293AABE964D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
-		131B086640309E45D7AB282DE92AAF9B /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB796990160A5C793B01FB947E311E70 /* Context.swift */; };
-		2CB9A2570A1F3E110E68C9DB5BA88C8F /* PositionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D4C462E40129A06866A7E1F06290 /* PositionAttribute+AppKit.swift */; };
-		355F3E122A4FD19182581929248BE5AF /* CompoundAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20CF88C86839FCC02478707EF55A14C /* CompoundAttribute.swift */; };
-		3BCFF771A59A78D72033380FDBFBBBD4 /* ReferenceAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506E48AA27B6C2A1FA04AC0459D7C3 /* ReferenceAttribute.swift */; };
-		447AC19C3E732156FCBFFF5B814A65CF /* Item+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42073D4EDF2E6022EECFECA2B8CF25A0 /* Item+AppKit.swift */; };
+		131B086640309E45D7AB282DE92AAF9B /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33D1D86D518BC1564AC769B61716DE /* Context.swift */; };
+		2CB9A2570A1F3E110E68C9DB5BA88C8F /* PositionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B73478B258B2DC255BA3AAE90DCFEE /* PositionAttribute+AppKit.swift */; };
+		33CBAA5F43B556E56617719E15729436 /* DatePickerStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8918A794CD282814F5BA6E1670AA8C /* DatePickerStackScrollViewCell.swift */; };
+		355F3E122A4FD19182581929248BE5AF /* CompoundAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F29FB20E8E7317522A8D197BA03CC /* CompoundAttribute.swift */; };
+		3BCFF771A59A78D72033380FDBFBBBD4 /* ReferenceAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5156FABCBC2D1D6CDCBFB80A260C8 /* ReferenceAttribute.swift */; };
+		447AC19C3E732156FCBFFF5B814A65CF /* Item+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9661ED280FD37B47368511345C18FC /* Item+AppKit.swift */; };
 		455AF6A97E227E2FADDEC6E71CA63FA7 /* StackScrollViewComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA022F5F9864562B8903191F1A2BDCF /* StackScrollViewComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA987CB31D0F2824FDA4348065F4C16 /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AD0997E891E8385E9A3B711109C429 /* Then-dummy.m */; };
-		4B2A6A221D74BB550055F346 /* LabelStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */; };
-		4B2A6A241D74BC040055F346 /* SeparatorStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */; };
-		4B2A6A261D74BEC30055F346 /* SpaceStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */; };
-		4BDF2C0A1D75331B0041A160 /* DatePickerStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF2C081D7533160041A160 /* DatePickerStackScrollViewCell.swift */; };
-		4BDF2C0D1D753CC30041A160 /* TapHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF2C0B1D753B650041A160 /* TapHighlightView.swift */; };
+		4AA987CB31D0F2824FDA4348065F4C16 /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A339B749DB43056FB85B3B5AD69F3364 /* Then-dummy.m */; };
+		4BF021EA1D75B5A3004FE7DE /* SwitchStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021E91D75B5A3004FE7DE /* SwitchStackScrollViewCell.swift */; };
+		4BF021EC1D75B604004FE7DE /* TextFieldStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021EB1D75B604004FE7DE /* TextFieldStackScrollViewCell.swift */; };
+		4BF021F01D75C07E004FE7DE /* DiscrosureStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021EF1D75C07E004FE7DE /* DiscrosureStackScrollViewCell.swift */; };
 		525F78AEAAC7ABF3D28ADC9DD8C83224 /* Pods-StackScrollViewComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD3F987BEFC88B1467F460F02BB79E1 /* Pods-StackScrollViewComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54DE0D61DD6740119F169414DDEF455C /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */; };
 		5685D4B8D3859582FCB4FC935574D799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
-		589A8E124DEEC2A14EE0868FB5678C56 /* EasyPeasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BB0236CAF6778E48BB573227CB58E3 /* EasyPeasy-dummy.m */; };
+		589A8E124DEEC2A14EE0868FB5678C56 /* EasyPeasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95074C6876ECA41DDEB794D60B907D14 /* EasyPeasy-dummy.m */; };
 		5A35A10D3CB96C994387BFD7E4956C90 /* StackScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D710490F9157ABC81AA1F0F83F62596 /* StackScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C6D639A9B01FD35544BA88455275AF0 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081E5464550F2AE31885EC0F9728521 /* Priority.swift */; };
-		5E6B7BB0F897F7DCFA1B889DC7632462 /* UILayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A06442E2406C9D71AA01658DD4C9 /* UILayoutGuide+Easy.swift */; };
-		72A01CB67AAD9F2C917C9186C3FCB4C4 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9E166EC9D683C04A8F59FB204DD70 /* Then.swift */; };
-		743C1B674CDCEE24B4D36163EFA5A755 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FA90F7697E3D95F004603788661B7 /* ReplaceMe.swift */; };
+		5C6D639A9B01FD35544BA88455275AF0 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1124782046A2A072C62CCA4DB07937 /* Priority.swift */; };
+		5CA681D37AABEA30C10A008A79BAC0DC /* SpaceStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63419880E184E625B2EBD3ECEA6411A8 /* SpaceStackScrollViewCell.swift */; };
+		5E6B7BB0F897F7DCFA1B889DC7632462 /* UILayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100234DC67B8B6FC63F19F5415759D0D /* UILayoutGuide+Easy.swift */; };
+		72A01CB67AAD9F2C917C9186C3FCB4C4 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139873BC0FE19DEDC2B7F53BEFF083C5 /* Then.swift */; };
 		746B1AAEA4005A7597DE1928F18840BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
 		7EBB834677FC2F2030EFEAC4BA1B664C /* Pods-StackScrollViewComponents_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 207065DB8840A74E755B659AE7DF183E /* Pods-StackScrollViewComponents_Example-dummy.m */; };
-		8B05C8DF1210D319DFFC2239F41526C2 /* DimensionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89715F1F652F7344FB487BB55C497019 /* DimensionAttribute.swift */; };
-		8CE3E62C0768F0D2BABF7D144D5325D8 /* DimensionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CDA35A7BDCA737CC51E9E5D7D9B03 /* DimensionAttribute+UIKit.swift */; };
-		99F8EA47EB71A58324E2427148A0E40D /* StackScrollViewComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3ECFA5EB7D1CDF005EE86AFE3EB25C /* StackScrollViewComponents-dummy.m */; };
-		A14873121045854241BF73DF57C5DE44 /* PositionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */; };
+		8B05C8DF1210D319DFFC2239F41526C2 /* DimensionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23065C21DC1C5E70D9C99586D8EF5D /* DimensionAttribute.swift */; };
+		8CE3E62C0768F0D2BABF7D144D5325D8 /* DimensionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF117DB1A3644823E1CE43B5F60494B /* DimensionAttribute+UIKit.swift */; };
+		A14873121045854241BF73DF57C5DE44 /* PositionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71744CBBBF8CBDA952B511F1E608F8 /* PositionAttribute.swift */; };
 		A3C9EA18B37E17078265B3FF9DDF1049 /* StackScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C85108F99677C463E74E15BF70676B /* StackScrollView.swift */; };
 		A8D14BE0C71ED6C4E01E81FF5773D1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
 		AA30115D6F4BD9569243B357FEBAA951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
 		ABAC531E1613DB55998126241F409126 /* StackScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7487CF3099536F2CFB7A6EBA00430168 /* StackScrollView.framework */; };
 		AEE92FC53971BBC34A3A02E964B701FB /* Pods-StackScrollViewComponents_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4543224D5F9FD264B3E2AE841BB5C5 /* Pods-StackScrollViewComponents_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C40CA9CC2AFAFEFAF0BA6613E54DA204 /* NSLayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F989A7F1C9674E68153A64C8A7209 /* NSLayoutGuide+Easy.swift */; };
+		B03489ADC5E944B2EC1E5ACB1FBD5E0B /* SeparatorStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BD180CD507AF0F8A1474E402FC0713 /* SeparatorStackViewCell.swift */; };
+		C40CA9CC2AFAFEFAF0BA6613E54DA204 /* NSLayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6939606B436749267DC4D6D664A40D /* NSLayoutGuide+Easy.swift */; };
+		C555D049015611905895075DF571C4E3 /* LabelStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661C176031210AD71327DEF5D322551 /* LabelStackScrollViewCell.swift */; };
 		C636B6DF5E69AE7A7115F0379E07F528 /* Pods-StackScrollViewComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C05D4A1D43A959C753731ADDD415D /* Pods-StackScrollViewComponents_Tests-dummy.m */; };
-		C807C90D9AC80E4A2F94C66604F51722 /* Item+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA9FD96A9FC29FE465B8D768772437 /* Item+UIKit.swift */; };
-		C881223C845EDF270A21FE3427B681AC /* PositionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111A898394AB9D435FA8ABFDA27F073C /* PositionAttribute+UIKit.swift */; };
-		CE5A84B82017ABDA35A58DE5445C0517 /* NSView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14866D3C8CCDCFEEB4B89C11238C0F /* NSView+Easy.swift */; };
-		CF3FB9E98F3A8BBFD91647CAFE219700 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFADAA7DEAB5D34ACF8F707EF8FF9123 /* Constant.swift */; };
+		C807C90D9AC80E4A2F94C66604F51722 /* Item+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2765E5035B052D3C8134108D6D25CE26 /* Item+UIKit.swift */; };
+		C881223C845EDF270A21FE3427B681AC /* PositionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D40C1D3112E5C79F66813F5172148F /* PositionAttribute+UIKit.swift */; };
+		CE5A84B82017ABDA35A58DE5445C0517 /* NSView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE057146708FE32F424BC41AB67436 /* NSView+Easy.swift */; };
+		CF3FB9E98F3A8BBFD91647CAFE219700 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C669300A2FF6EBFD43BCB16C85ABE /* Constant.swift */; };
 		DA2F4413750A5677E8A598172378B5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
-		DBB4B0D40A81B6F0CB231A7411E87718 /* DimensionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102E7C28AA08C35E6B6EE9FAC163F9B /* DimensionAttribute+AppKit.swift */; };
+		DBB4B0D40A81B6F0CB231A7411E87718 /* DimensionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E105CAE8EC124A2E779F9A36B87CC /* DimensionAttribute+AppKit.swift */; };
 		E08D0D0F47088878B97924F7E3F4FFA4 /* StackScrollViewCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB5704A2EAC2ACF62BFDD42D58C0F5 /* StackScrollViewCellType.swift */; };
-		E0F8BB79EDB6D15B7130B4058C885786 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF59B9E844B360072A6832CBE9693A4 /* Attribute.swift */; };
+		E0F8BB79EDB6D15B7130B4058C885786 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F60E09EE83935E7CC0B0E8A3BF9C7 /* Attribute.swift */; };
+		E62E1602BD38C369C7FE82810BDB1921 /* TapHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FBA46BA83CD20582C06791B1D6A892 /* TapHighlightView.swift */; };
 		E8A0D7D28DA33A7EAF0BBCFC8DD3B7E0 /* StackScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDC2874FBD476EF92782724AF93480 /* StackScrollView-dummy.m */; };
-		F46BFEFC338EE6F9EC0BB44BB4CF795E /* UIView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F1077D5DDE5EF02D57A3A868C49F2 /* UIView+Easy.swift */; };
-		F67115B61E09A788B23094FA6FA41F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B014ADF33128632C7C10FAA45D557F9 /* Item.swift */; };
-		F70BCFDA9075E2587F5A8FBFE1265CA7 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED383F7106F9B577530A350F8DB2A9E8 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAA0E42AA74D336F254DC0A7711AADAD /* EasyPeasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22356B15299484273655E7A5B738A1D2 /* EasyPeasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A3B52EB19FB237AB7DF20E403EDB2E /* StackScrollViewComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3ECFA5EB7D1CDF005EE86AFE3EB25C /* StackScrollViewComponents-dummy.m */; };
+		F46BFEFC338EE6F9EC0BB44BB4CF795E /* UIView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5056E290AE3E146014783D7C411AA4D9 /* UIView+Easy.swift */; };
+		F67115B61E09A788B23094FA6FA41F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EDBC59C1D55BC4122079F527C22B1A /* Item.swift */; };
+		F70BCFDA9075E2587F5A8FBFE1265CA7 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CB2437A8F1146A50B6B984B0C9F143 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA0E42AA74D336F254DC0A7711AADAD /* EasyPeasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE436876E5B73E8E3DA7BBFA3EA64EBF /* EasyPeasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE953DF2B560B2FF682FD8D3DC6B9C85 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,87 +116,90 @@
 /* Begin PBXFileReference section */
 		0122EC45AFA23F353345053726A5F687 /* Pods-StackScrollViewComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0164930056CCE78341B900697D9DF63B /* StackScrollViewComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackScrollViewComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DC82C5AFAEB1AA4146E70F6451B386 /* EasyPeasy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-prefix.pch"; sourceTree = "<group>"; };
+		0A1124782046A2A072C62CCA4DB07937 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = EasyPeasy/Priority.swift; sourceTree = "<group>"; };
+		0B97433106644A08F96F5B7F096D0EA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C29734823AD79635B1ACE41352C46E3 /* Pods-StackScrollViewComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StackScrollViewComponents_Tests.modulemap"; sourceTree = "<group>"; };
-		0D1FA90F7697E3D95F004603788661B7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		111A898394AB9D435FA8ABFDA27F073C /* PositionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+UIKit.swift"; path = "EasyPeasy/PositionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		0ED5156FABCBC2D1D6CDCBFB80A260C8 /* ReferenceAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceAttribute.swift; path = EasyPeasy/ReferenceAttribute.swift; sourceTree = "<group>"; };
+		0EF117DB1A3644823E1CE43B5F60494B /* DimensionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+UIKit.swift"; path = "EasyPeasy/DimensionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		0F33D1D86D518BC1564AC769B61716DE /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = EasyPeasy/Context.swift; sourceTree = "<group>"; };
+		100234DC67B8B6FC63F19F5415759D0D /* UILayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Easy.swift"; path = "EasyPeasy/UILayoutGuide+Easy.swift"; sourceTree = "<group>"; };
+		139873BC0FE19DEDC2B7F53BEFF083C5 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then.swift; sourceTree = "<group>"; };
+		183661087BD30D4989B1F7A2352F1378 /* EasyPeasy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPeasy.xcconfig; sourceTree = "<group>"; };
 		1CB763546121C20CA65736A4B7A53325 /* Pods-StackScrollViewComponents_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1CD3F987BEFC88B1467F460F02BB79E1 /* Pods-StackScrollViewComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackScrollViewComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D71744CBBBF8CBDA952B511F1E608F8 /* PositionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionAttribute.swift; path = EasyPeasy/PositionAttribute.swift; sourceTree = "<group>"; };
 		1E4543224D5F9FD264B3E2AE841BB5C5 /* Pods-StackScrollViewComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackScrollViewComponents_Example-umbrella.h"; sourceTree = "<group>"; };
 		1F7529662F65206969AF79C630AFAA16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		201CDA35A7BDCA737CC51E9E5D7D9B03 /* DimensionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+UIKit.swift"; path = "EasyPeasy/DimensionAttribute+UIKit.swift"; sourceTree = "<group>"; };
 		207065DB8840A74E755B659AE7DF183E /* Pods-StackScrollViewComponents_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackScrollViewComponents_Example-dummy.m"; sourceTree = "<group>"; };
-		22356B15299484273655E7A5B738A1D2 /* EasyPeasy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-umbrella.h"; sourceTree = "<group>"; };
 		269DC53384410C077F39D93C998329E9 /* Pods-StackScrollViewComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackScrollViewComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26B73478B258B2DC255BA3AAE90DCFEE /* PositionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+AppKit.swift"; path = "EasyPeasy/PositionAttribute+AppKit.swift"; sourceTree = "<group>"; };
 		26F0C7A4EC97395DC0791371CF5CC200 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B014ADF33128632C7C10FAA45D557F9 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = EasyPeasy/Item.swift; sourceTree = "<group>"; };
+		2765E5035B052D3C8134108D6D25CE26 /* Item+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+UIKit.swift"; path = "EasyPeasy/Item+UIKit.swift"; sourceTree = "<group>"; };
+		280514E8E417EB88480A61DD6E030ADC /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Then.modulemap; sourceTree = "<group>"; };
 		2FA57471540E0F07A55B57B564C061E6 /* Pods-StackScrollViewComponents_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StackScrollViewComponents_Example.modulemap"; sourceTree = "<group>"; };
-		3102E7C28AA08C35E6B6EE9FAC163F9B /* DimensionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+AppKit.swift"; path = "EasyPeasy/DimensionAttribute+AppKit.swift"; sourceTree = "<group>"; };
 		39BA934F978602F756F29D190B523E86 /* Pods-StackScrollViewComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackScrollViewComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BD23637801B16A7C6E61BC2A06A5FAE /* Pods_StackScrollViewComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackScrollViewComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF59B9E844B360072A6832CBE9693A4 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = EasyPeasy/Attribute.swift; sourceTree = "<group>"; };
-		417F989A7F1C9674E68153A64C8A7209 /* NSLayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutGuide+Easy.swift"; path = "EasyPeasy/NSLayoutGuide+Easy.swift"; sourceTree = "<group>"; };
-		42073D4EDF2E6022EECFECA2B8CF25A0 /* Item+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+AppKit.swift"; path = "EasyPeasy/Item+AppKit.swift"; sourceTree = "<group>"; };
 		4A78807CBD213A42F970BBA64DCD3747 /* Pods-StackScrollViewComponents_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackScrollViewComponents_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStackScrollViewCell.swift; sourceTree = "<group>"; };
-		4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorStackViewCell.swift; sourceTree = "<group>"; };
-		4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceStackScrollViewCell.swift; sourceTree = "<group>"; };
-		4BDF2C081D7533160041A160 /* DatePickerStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerStackScrollViewCell.swift; sourceTree = "<group>"; };
-		4BDF2C0B1D753B650041A160 /* TapHighlightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapHighlightView.swift; sourceTree = "<group>"; };
+		4BF021E91D75B5A3004FE7DE /* SwitchStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4BF021EB1D75B604004FE7DE /* TextFieldStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4BF021EF1D75C07E004FE7DE /* DiscrosureStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscrosureStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4C19F58412B43324103031B79CFF78EA /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = EasyPeasy/Node.swift; sourceTree = "<group>"; };
 		4D710490F9157ABC81AA1F0F83F62596 /* StackScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollView-umbrella.h"; sourceTree = "<group>"; };
 		4FE8BA66B359528832F9818C4319EF79 /* StackScrollViewComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StackScrollViewComponents.modulemap; sourceTree = "<group>"; };
-		514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionAttribute.swift; path = EasyPeasy/PositionAttribute.swift; sourceTree = "<group>"; };
-		5475D4C462E40129A06866A7E1F06290 /* PositionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+AppKit.swift"; path = "EasyPeasy/PositionAttribute+AppKit.swift"; sourceTree = "<group>"; };
+		5056E290AE3E146014783D7C411AA4D9 /* UIView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Easy.swift"; path = "EasyPeasy/UIView+Easy.swift"; sourceTree = "<group>"; };
+		51CE1C34D624D6B80247386AA704FC23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5457ABA88766B4CCB292544256835AE7 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
 		54C85108F99677C463E74E15BF70676B /* StackScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StackScrollView.swift; sourceTree = "<group>"; };
 		58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB233EF48C07A219248593D8F94DD01 /* StackScrollViewComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackScrollViewComponents.xcconfig; sourceTree = "<group>"; };
+		5E0B8E262F48E73F91629FCFE3A51E2D /* EasyPeasy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyPeasy.modulemap; sourceTree = "<group>"; };
+		60CB2437A8F1146A50B6B984B0C9F143 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
 		63154D849DD9B26A26551116DFFAC98C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63419880E184E625B2EBD3ECEA6411A8 /* SpaceStackScrollViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpaceStackScrollViewCell.swift; sourceTree = "<group>"; };
+		6A6939606B436749267DC4D6D664A40D /* NSLayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutGuide+Easy.swift"; path = "EasyPeasy/NSLayoutGuide+Easy.swift"; sourceTree = "<group>"; };
 		6D3ECFA5EB7D1CDF005EE86AFE3EB25C /* StackScrollViewComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StackScrollViewComponents-dummy.m"; sourceTree = "<group>"; };
 		6DFDC2874FBD476EF92782724AF93480 /* StackScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StackScrollView-dummy.m"; sourceTree = "<group>"; };
+		6E0875B9FFFD51477CA413276AF704D2 /* Then.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.xcconfig; sourceTree = "<group>"; };
 		7487CF3099536F2CFB7A6EBA00430168 /* StackScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79CA9FD96A9FC29FE465B8D768772437 /* Item+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+UIKit.swift"; path = "EasyPeasy/Item+UIKit.swift"; sourceTree = "<group>"; };
+		76BD180CD507AF0F8A1474E402FC0713 /* SeparatorStackViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeparatorStackViewCell.swift; sourceTree = "<group>"; };
+		781C669300A2FF6EBFD43BCB16C85ABE /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = EasyPeasy/Constant.swift; sourceTree = "<group>"; };
+		7B5F60E09EE83935E7CC0B0E8A3BF9C7 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = EasyPeasy/Attribute.swift; sourceTree = "<group>"; };
+		7C8918A794CD282814F5BA6E1670AA8C /* DatePickerStackScrollViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerStackScrollViewCell.swift; sourceTree = "<group>"; };
 		7C8C05D4A1D43A959C753731ADDD415D /* Pods-StackScrollViewComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackScrollViewComponents_Tests-dummy.m"; sourceTree = "<group>"; };
-		7EF9E166EC9D683C04A8F59FB204DD70 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then.swift; sourceTree = "<group>"; };
+		80A49EC0DDA10295DD9488312C736F29 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "Reveal-Framework-iOS-1.6.2/Reveal.framework"; sourceTree = "<group>"; };
 		80D3ED28FAE84BCD6BEFC8BBFCADF6BE /* Pods-StackScrollViewComponents_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Example-frameworks.sh"; sourceTree = "<group>"; };
-		89715F1F652F7344FB487BB55C497019 /* DimensionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimensionAttribute.swift; path = EasyPeasy/DimensionAttribute.swift; sourceTree = "<group>"; };
-		8A501A2EE1C16D42C5DA5E3614D127F8 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		84CE057146708FE32F424BC41AB67436 /* NSView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Easy.swift"; path = "EasyPeasy/NSView+Easy.swift"; sourceTree = "<group>"; };
+		87D40C1D3112E5C79F66813F5172148F /* PositionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+UIKit.swift"; path = "EasyPeasy/PositionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		87EDBC59C1D55BC4122079F527C22B1A /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = EasyPeasy/Item.swift; sourceTree = "<group>"; };
 		8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		991F1077D5DDE5EF02D57A3A868C49F2 /* UIView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Easy.swift"; path = "EasyPeasy/UIView+Easy.swift"; sourceTree = "<group>"; };
+		95074C6876ECA41DDEB794D60B907D14 /* EasyPeasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPeasy-dummy.m"; sourceTree = "<group>"; };
 		9A843616B1AF30A922B6002246970F36 /* Pods-StackScrollViewComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BAB5704A2EAC2ACF62BFDD42D58C0F5 /* StackScrollViewCellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StackScrollViewCellType.swift; sourceTree = "<group>"; };
 		A07D447E07CB5C7A03625855CC61301C /* Pods-StackScrollViewComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A339B749DB43056FB85B3B5AD69F3364 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
 		A88992BF61510E876DFF52F92A11154C /* StackScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollView-prefix.pch"; sourceTree = "<group>"; };
-		AB796990160A5C793B01FB947E311E70 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = EasyPeasy/Context.swift; sourceTree = "<group>"; };
-		AC7573D4925AE95A09981A7774E3C66C /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Then.modulemap; sourceTree = "<group>"; };
+		AB3E105CAE8EC124A2E779F9A36B87CC /* DimensionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+AppKit.swift"; path = "EasyPeasy/DimensionAttribute+AppKit.swift"; sourceTree = "<group>"; };
 		ACA022F5F9864562B8903191F1A2BDCF /* StackScrollViewComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollViewComponents-umbrella.h"; sourceTree = "<group>"; };
-		ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.xcconfig; sourceTree = "<group>"; };
-		B0BB0236CAF6778E48BB573227CB58E3 /* EasyPeasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPeasy-dummy.m"; sourceTree = "<group>"; };
 		B0F8833CD6591E24A5DB16C17CAC8CD8 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2D3A06442E2406C9D71AA01658DD4C9 /* UILayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Easy.swift"; path = "EasyPeasy/UILayoutGuide+Easy.swift"; sourceTree = "<group>"; };
+		B15F29FB20E8E7317522A8D197BA03CC /* CompoundAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundAttribute.swift; path = EasyPeasy/CompoundAttribute.swift; sourceTree = "<group>"; };
 		B305177C838E308DBD870B403D7FCEA2 /* Pods-StackScrollViewComponents_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Tests-resources.sh"; sourceTree = "<group>"; };
-		C096103DFFBF8B7875B4EAE26DDDF33F /* EasyPeasy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyPeasy.modulemap; sourceTree = "<group>"; };
+		C2FBA46BA83CD20582C06791B1D6A892 /* TapHighlightView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TapHighlightView.swift; sourceTree = "<group>"; };
 		C7009B9C1DF49DEBBBD70B33AA1C67E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA14F4F7F116EEDDEA46834A60CCC5D2 /* StackScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB239A3EB10574AACCF254A2A9790AAC /* StackScrollViewComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollViewComponents-prefix.pch"; sourceTree = "<group>"; };
-		CFADAA7DEAB5D34ACF8F707EF8FF9123 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = EasyPeasy/Constant.swift; sourceTree = "<group>"; };
-		D20CF88C86839FCC02478707EF55A14C /* CompoundAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundAttribute.swift; path = EasyPeasy/CompoundAttribute.swift; sourceTree = "<group>"; };
-		D5506E48AA27B6C2A1FA04AC0459D7C3 /* ReferenceAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceAttribute.swift; path = EasyPeasy/ReferenceAttribute.swift; sourceTree = "<group>"; };
+		CE436876E5B73E8E3DA7BBFA3EA64EBF /* EasyPeasy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-umbrella.h"; sourceTree = "<group>"; };
+		D661C176031210AD71327DEF5D322551 /* LabelStackScrollViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStackScrollViewCell.swift; sourceTree = "<group>"; };
 		DB8B0E8454FB66739DCD72DBEFCB9D79 /* Pods-StackScrollViewComponents_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackScrollViewComponents_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF083CB499631C09F622828E0BDE192E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF4F07E1FD379277FE064C1339B3715D /* Pods-StackScrollViewComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackScrollViewComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E29B0F0A94CFBF91DE5D29689FCCECA3 /* Pods_StackScrollViewComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackScrollViewComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7260979A467A669FA8255BD41C5F0F6 /* Pods-StackScrollViewComponents_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackScrollViewComponents_Example-resources.sh"; sourceTree = "<group>"; };
-		E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPeasy.xcconfig; sourceTree = "<group>"; };
-		EA14866D3C8CCDCFEEB4B89C11238C0F /* NSView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Easy.swift"; path = "EasyPeasy/NSView+Easy.swift"; sourceTree = "<group>"; };
-		ECF90481E6D7F1FE19594B019E7ACCF9 /* EasyPeasy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-prefix.pch"; sourceTree = "<group>"; };
-		ED383F7106F9B577530A350F8DB2A9E8 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
-		F081E5464550F2AE31885EC0F9728521 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = EasyPeasy/Priority.swift; sourceTree = "<group>"; };
-		F10C1B4C4C2BB7352FD5C251283CCDE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2AD0997E891E8385E9A3B711109C429 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
-		F33BD8A729771C4A31C5462FDF2D6416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9661ED280FD37B47368511345C18FC /* Item+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+AppKit.swift"; path = "EasyPeasy/Item+AppKit.swift"; sourceTree = "<group>"; };
+		EF23065C21DC1C5E70D9C99586D8EF5D /* DimensionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimensionAttribute.swift; path = EasyPeasy/DimensionAttribute.swift; sourceTree = "<group>"; };
 		F4E8AEFAB915265C060E20C4CD463494 /* StackScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StackScrollView.xcconfig; sourceTree = "<group>"; };
 		F98B1D5CE0EC0EFCF8DE6422BEE9ADD8 /* StackScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StackScrollView.modulemap; sourceTree = "<group>"; };
-		F9B65689DDBB0CE626895BBB24379439 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = EasyPeasy/Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,18 +257,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		205AC1ED9A474E6AE06BF50E3627F675 /* Support Files */ = {
+		07752FD0449BE18604AD7C593B44B436 /* StackScrollViewComponents */ = {
 			isa = PBXGroup;
 			children = (
-				C096103DFFBF8B7875B4EAE26DDDF33F /* EasyPeasy.modulemap */,
-				E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */,
-				B0BB0236CAF6778E48BB573227CB58E3 /* EasyPeasy-dummy.m */,
-				ECF90481E6D7F1FE19594B019E7ACCF9 /* EasyPeasy-prefix.pch */,
-				22356B15299484273655E7A5B738A1D2 /* EasyPeasy-umbrella.h */,
-				F10C1B4C4C2BB7352FD5C251283CCDE9 /* Info.plist */,
+				98E8A28F13B4AF5C5A64A9AA6DD6D739 /* Classes */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/EasyPeasy";
+			path = StackScrollViewComponents;
 			sourceTree = "<group>";
 		};
 		211F42EAE1109612D1B52438EE6C7E52 /* Products */ = {
@@ -279,12 +278,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BA6D91C58603FA2A64F817789624818 /* StackScrollViewComponents */ = {
+		24FBD5A9344ACC2958DBD6FC0B055A90 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3C6CD468D831F00347B8B420814AA0E0 /* Classes */,
+				A893CD2A6212523357762FA4B2114275 /* EasyPeasy */,
+				A5C83EFD28FDC17A18C59BDA0C3445A6 /* Reveal-iOS-SDK */,
+				5623C01B5075A2357AD3A2A9ED7E11C3 /* Then */,
 			);
-			path = StackScrollViewComponents;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3019A50816AA66D3557F3229F9B8B460 /* StackScrollView */ = {
@@ -302,19 +303,6 @@
 			children = (
 				54C85108F99677C463E74E15BF70676B /* StackScrollView.swift */,
 				9BAB5704A2EAC2ACF62BFDD42D58C0F5 /* StackScrollViewCellType.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3C6CD468D831F00347B8B420814AA0E0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0D1FA90F7697E3D95F004603788661B7 /* ReplaceMe.swift */,
-				4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */,
-				4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */,
-				4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */,
-				4BDF2C081D7533160041A160 /* DatePickerStackScrollViewCell.swift */,
-				4BDF2C0B1D753B650041A160 /* TapHighlightView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -359,6 +347,15 @@
 			path = StackScrollView;
 			sourceTree = "<group>";
 		};
+		5623C01B5075A2357AD3A2A9ED7E11C3 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				139873BC0FE19DEDC2B7F53BEFF083C5 /* Then.swift */,
+				8AE6A88D28D9006EA259391D026B2BA0 /* Support Files */,
+			);
+			path = Then;
+			sourceTree = "<group>";
+		};
 		568557A439BB60F3D91EEE4BDCE4E3A3 /* Pods-StackScrollViewComponents_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,15 +383,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		594ECC1E124C1B95DDA33E6D62106564 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9396327D9E54F694F6A693EBF743B2A7 /* EasyPeasy */,
-				A55827FAA56D0572F338A26AB0AECF54 /* Then */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		5C8EF9226A398B96951DA9C669ED606C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,7 +395,7 @@
 		771F237110FFFF8F225B2878D1E4E3A0 /* StackScrollViewComponents */ = {
 			isa = PBXGroup;
 			children = (
-				2BA6D91C58603FA2A64F817789624818 /* StackScrollViewComponents */,
+				07752FD0449BE18604AD7C593B44B436 /* StackScrollViewComponents */,
 				F09B48A62FAB68E1FE4C935A1BF6075A /* Support Files */,
 			);
 			name = StackScrollViewComponents;
@@ -420,61 +408,75 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				573F27248A644A072F921E160E0C6B9C /* Development Pods */,
 				A8C5723F767BAAF2D318ED947D6C6F30 /* Frameworks */,
-				594ECC1E124C1B95DDA33E6D62106564 /* Pods */,
+				24FBD5A9344ACC2958DBD6FC0B055A90 /* Pods */,
 				211F42EAE1109612D1B52438EE6C7E52 /* Products */,
 				5C8EF9226A398B96951DA9C669ED606C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9396327D9E54F694F6A693EBF743B2A7 /* EasyPeasy */ = {
+		8AE6A88D28D9006EA259391D026B2BA0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FF59B9E844B360072A6832CBE9693A4 /* Attribute.swift */,
-				D20CF88C86839FCC02478707EF55A14C /* CompoundAttribute.swift */,
-				CFADAA7DEAB5D34ACF8F707EF8FF9123 /* Constant.swift */,
-				AB796990160A5C793B01FB947E311E70 /* Context.swift */,
-				89715F1F652F7344FB487BB55C497019 /* DimensionAttribute.swift */,
-				3102E7C28AA08C35E6B6EE9FAC163F9B /* DimensionAttribute+AppKit.swift */,
-				201CDA35A7BDCA737CC51E9E5D7D9B03 /* DimensionAttribute+UIKit.swift */,
-				2B014ADF33128632C7C10FAA45D557F9 /* Item.swift */,
-				42073D4EDF2E6022EECFECA2B8CF25A0 /* Item+AppKit.swift */,
-				79CA9FD96A9FC29FE465B8D768772437 /* Item+UIKit.swift */,
-				F9B65689DDBB0CE626895BBB24379439 /* Node.swift */,
-				417F989A7F1C9674E68153A64C8A7209 /* NSLayoutGuide+Easy.swift */,
-				EA14866D3C8CCDCFEEB4B89C11238C0F /* NSView+Easy.swift */,
-				514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */,
-				5475D4C462E40129A06866A7E1F06290 /* PositionAttribute+AppKit.swift */,
-				111A898394AB9D435FA8ABFDA27F073C /* PositionAttribute+UIKit.swift */,
-				F081E5464550F2AE31885EC0F9728521 /* Priority.swift */,
-				D5506E48AA27B6C2A1FA04AC0459D7C3 /* ReferenceAttribute.swift */,
-				B2D3A06442E2406C9D71AA01658DD4C9 /* UILayoutGuide+Easy.swift */,
-				991F1077D5DDE5EF02D57A3A868C49F2 /* UIView+Easy.swift */,
-				205AC1ED9A474E6AE06BF50E3627F675 /* Support Files */,
-			);
-			path = EasyPeasy;
-			sourceTree = "<group>";
-		};
-		A3906722A84E1F8F7576C220087EF9E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F33BD8A729771C4A31C5462FDF2D6416 /* Info.plist */,
-				AC7573D4925AE95A09981A7774E3C66C /* Then.modulemap */,
-				ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */,
-				F2AD0997E891E8385E9A3B711109C429 /* Then-dummy.m */,
-				8A501A2EE1C16D42C5DA5E3614D127F8 /* Then-prefix.pch */,
-				ED383F7106F9B577530A350F8DB2A9E8 /* Then-umbrella.h */,
+				0B97433106644A08F96F5B7F096D0EA7 /* Info.plist */,
+				280514E8E417EB88480A61DD6E030ADC /* Then.modulemap */,
+				6E0875B9FFFD51477CA413276AF704D2 /* Then.xcconfig */,
+				A339B749DB43056FB85B3B5AD69F3364 /* Then-dummy.m */,
+				5457ABA88766B4CCB292544256835AE7 /* Then-prefix.pch */,
+				60CB2437A8F1146A50B6B984B0C9F143 /* Then-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Then";
 			sourceTree = "<group>";
 		};
-		A55827FAA56D0572F338A26AB0AECF54 /* Then */ = {
+		98E8A28F13B4AF5C5A64A9AA6DD6D739 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7EF9E166EC9D683C04A8F59FB204DD70 /* Then.swift */,
-				A3906722A84E1F8F7576C220087EF9E6 /* Support Files */,
+				7C8918A794CD282814F5BA6E1670AA8C /* DatePickerStackScrollViewCell.swift */,
+				D661C176031210AD71327DEF5D322551 /* LabelStackScrollViewCell.swift */,
+				76BD180CD507AF0F8A1474E402FC0713 /* SeparatorStackViewCell.swift */,
+				63419880E184E625B2EBD3ECEA6411A8 /* SpaceStackScrollViewCell.swift */,
+				4BF021E91D75B5A3004FE7DE /* SwitchStackScrollViewCell.swift */,
+				4BF021EF1D75C07E004FE7DE /* DiscrosureStackScrollViewCell.swift */,
+				4BF021EB1D75B604004FE7DE /* TextFieldStackScrollViewCell.swift */,
+				C2FBA46BA83CD20582C06791B1D6A892 /* TapHighlightView.swift */,
 			);
-			path = Then;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5C83EFD28FDC17A18C59BDA0C3445A6 /* Reveal-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CC4349479974C951A681F8B8D105A6A4 /* Frameworks */,
+			);
+			path = "Reveal-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		A893CD2A6212523357762FA4B2114275 /* EasyPeasy */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F60E09EE83935E7CC0B0E8A3BF9C7 /* Attribute.swift */,
+				B15F29FB20E8E7317522A8D197BA03CC /* CompoundAttribute.swift */,
+				781C669300A2FF6EBFD43BCB16C85ABE /* Constant.swift */,
+				0F33D1D86D518BC1564AC769B61716DE /* Context.swift */,
+				EF23065C21DC1C5E70D9C99586D8EF5D /* DimensionAttribute.swift */,
+				AB3E105CAE8EC124A2E779F9A36B87CC /* DimensionAttribute+AppKit.swift */,
+				0EF117DB1A3644823E1CE43B5F60494B /* DimensionAttribute+UIKit.swift */,
+				87EDBC59C1D55BC4122079F527C22B1A /* Item.swift */,
+				ED9661ED280FD37B47368511345C18FC /* Item+AppKit.swift */,
+				2765E5035B052D3C8134108D6D25CE26 /* Item+UIKit.swift */,
+				4C19F58412B43324103031B79CFF78EA /* Node.swift */,
+				6A6939606B436749267DC4D6D664A40D /* NSLayoutGuide+Easy.swift */,
+				84CE057146708FE32F424BC41AB67436 /* NSView+Easy.swift */,
+				1D71744CBBBF8CBDA952B511F1E608F8 /* PositionAttribute.swift */,
+				26B73478B258B2DC255BA3AAE90DCFEE /* PositionAttribute+AppKit.swift */,
+				87D40C1D3112E5C79F66813F5172148F /* PositionAttribute+UIKit.swift */,
+				0A1124782046A2A072C62CCA4DB07937 /* Priority.swift */,
+				0ED5156FABCBC2D1D6CDCBFB80A260C8 /* ReferenceAttribute.swift */,
+				100234DC67B8B6FC63F19F5415759D0D /* UILayoutGuide+Easy.swift */,
+				5056E290AE3E146014783D7C411AA4D9 /* UIView+Easy.swift */,
+				C42C9BC91153C6DFC9583AB6C9B4CB40 /* Support Files */,
+			);
+			path = EasyPeasy;
 			sourceTree = "<group>";
 		};
 		A8C5723F767BAAF2D318ED947D6C6F30 /* Frameworks */ = {
@@ -493,6 +495,28 @@
 				8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C42C9BC91153C6DFC9583AB6C9B4CB40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B8E262F48E73F91629FCFE3A51E2D /* EasyPeasy.modulemap */,
+				183661087BD30D4989B1F7A2352F1378 /* EasyPeasy.xcconfig */,
+				95074C6876ECA41DDEB794D60B907D14 /* EasyPeasy-dummy.m */,
+				05DC82C5AFAEB1AA4146E70F6451B386 /* EasyPeasy-prefix.pch */,
+				CE436876E5B73E8E3DA7BBFA3EA64EBF /* EasyPeasy-umbrella.h */,
+				51CE1C34D624D6B80247386AA704FC23 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyPeasy";
+			sourceTree = "<group>";
+		};
+		CC4349479974C951A681F8B8D105A6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A49EC0DDA10295DD9488312C736F29 /* Reveal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F09B48A62FAB68E1FE4C935A1BF6075A /* Support Files */ = {
@@ -567,7 +591,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F38C33659F47B0DDD2D43420989892E5 /* Build configuration list for PBXNativeTarget "StackScrollViewComponents" */;
 			buildPhases = (
-				C4C143D078B2D064E7170C100A809F9E /* Sources */,
+				2E66F0744010CDB4F8F5483E03D6B6B9 /* Sources */,
 				91EB31787845DA382F56370E820A4458 /* Frameworks */,
 				DE5C8FCE8D33E42034C1EB583288D121 /* Headers */,
 			);
@@ -712,6 +736,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E66F0744010CDB4F8F5483E03D6B6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CBAA5F43B556E56617719E15729436 /* DatePickerStackScrollViewCell.swift in Sources */,
+				C555D049015611905895075DF571C4E3 /* LabelStackScrollViewCell.swift in Sources */,
+				B03489ADC5E944B2EC1E5ACB1FBD5E0B /* SeparatorStackViewCell.swift in Sources */,
+				4BF021EC1D75B604004FE7DE /* TextFieldStackScrollViewCell.swift in Sources */,
+				4BF021EA1D75B5A3004FE7DE /* SwitchStackScrollViewCell.swift in Sources */,
+				5CA681D37AABEA30C10A008A79BAC0DC /* SpaceStackScrollViewCell.swift in Sources */,
+				F3A3B52EB19FB237AB7DF20E403EDB2E /* StackScrollViewComponents-dummy.m in Sources */,
+				4BF021F01D75C07E004FE7DE /* DiscrosureStackScrollViewCell.swift in Sources */,
+				E62E1602BD38C369C7FE82810BDB1921 /* TapHighlightView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		628E07BBFEA1A9C04F455AA9E18F299E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -736,20 +776,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C636B6DF5E69AE7A7115F0379E07F528 /* Pods-StackScrollViewComponents_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4C143D078B2D064E7170C100A809F9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BDF2C0A1D75331B0041A160 /* DatePickerStackScrollViewCell.swift in Sources */,
-				4B2A6A221D74BB550055F346 /* LabelStackScrollViewCell.swift in Sources */,
-				743C1B674CDCEE24B4D36163EFA5A755 /* ReplaceMe.swift in Sources */,
-				4B2A6A241D74BC040055F346 /* SeparatorStackViewCell.swift in Sources */,
-				4B2A6A261D74BEC30055F346 /* SpaceStackScrollViewCell.swift in Sources */,
-				99F8EA47EB71A58324E2427148A0E40D /* StackScrollViewComponents-dummy.m in Sources */,
-				4BDF2C0D1D753CC30041A160 /* TapHighlightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -902,7 +928,7 @@
 		};
 		309B1FF7EC8E2CFEB291DF7BD4E24D78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */;
+			baseConfigurationReference = 6E0875B9FFFD51477CA413276AF704D2 /* Then.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -931,7 +957,7 @@
 		};
 		8AED726F6126D064D8F3144BF797C65D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */;
+			baseConfigurationReference = 183661087BD30D4989B1F7A2352F1378 /* EasyPeasy.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -960,7 +986,7 @@
 		};
 		915B22F436D0E4F3575B44F7726D5856 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACE91B190612D415089CE7CA19405D21 /* Then.xcconfig */;
+			baseConfigurationReference = 6E0875B9FFFD51477CA413276AF704D2 /* Then.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1146,7 +1172,7 @@
 		};
 		C8712A62F22218E12EED1F5680DDE96F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E846513D2CE8A5D6DE246148B9F74670 /* EasyPeasy.xcconfig */;
+			baseConfigurationReference = 183661087BD30D4989B1F7A2352F1378 /* EasyPeasy.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

@@ -4,6 +4,7 @@ target 'StackScrollViewComponents_Example' do
   pod 'StackScrollViewComponents', :path => '../'
   pod 'StackScrollView', path: '../Vendor/StackScrollView/'
   pod 'Then'
+  pod 'Reveal-iOS-SDK'
 
   target 'StackScrollViewComponents_Tests' do
     inherit! :search_paths

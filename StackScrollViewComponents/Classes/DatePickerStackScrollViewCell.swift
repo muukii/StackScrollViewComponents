@@ -34,20 +34,29 @@ public class DateLabelPickerStackViewCell: UIView, StackScrollViewCellType {
     public init() {
         super.init(frame: .zero)
         
+        backgroundColor = UIColor.whiteColor()
+        
         datePickerContainerView.clipsToBounds = true
+        
+        datePicker.setContentHuggingPriority(100, forAxis: .Horizontal)
+        
         datePickerContainerView.addSubview(datePicker)
         dateLabelContainerView.addSubview(dateLabel)
         
         addSubview(dateLabelContainerView)
+        addSubview(borderView)
         addSubview(datePickerContainerView)
         
         datePicker <- [
-            Edges().with(.LowPriority),
+            Top().with(.LowPriority),
+            Right(),
+            Left(),
+            Bottom().with(.LowPriority),
             CenterY().with(.MediumPriority),
         ]
         
         dateLabel <- [
-            Edges(8),
+            Edges(UIEdgeInsetsMake(8, 16, 8, 16)),
         ]
         
         dateLabelContainerView <- [
@@ -55,20 +64,31 @@ public class DateLabelPickerStackViewCell: UIView, StackScrollViewCellType {
             Right(),
             Left(),
             Height(50),
+            Bottom().to(borderView, .Top),
+        ]
+        
+        borderView <- [
+            Left(16),
+            Right(0),
+            Height(1 / UIScreen.mainScreen().scale),
             Bottom().to(datePickerContainerView, .Top),
         ]
         
         datePickerContainerView <- [
-            Right(0),
+            Right(),
             Left(),
             Bottom(),
             Height(0),
         ]
         
         dateLabel.text = dateFormatter.stringFromDate(datePicker.date)
+        dateLabel.textAlignment = .Right
         
         datePicker.addTarget(self, action: #selector(dateValueChanged), forControlEvents: .ValueChanged)
         dateLabelContainerView.addTarget(self, action: #selector(tapLabelContainerView), forControlEvents: .TouchUpInside)
+        
+        borderView.backgroundColor = UIColor(white: 0, alpha: 0.2)
+        borderView.hidden = true
     }
     
     public override func intrinsicContentSize() -> CGSize {
@@ -79,12 +99,13 @@ public class DateLabelPickerStackViewCell: UIView, StackScrollViewCellType {
         fatalError("init(coder:) has not been implemented")
     }
     
+    private let borderView = UIView()
     private let datePickerContainerView = UIView()
     private let dateLabelContainerView = TapHighlightView()
     private let dateFormatter: NSDateFormatter = {
         let dateFormatter = NSDateFormatter()
-        dateFormatter.dateStyle = .FullStyle
-        dateFormatter.timeStyle = .FullStyle
+        dateFormatter.dateStyle = .MediumStyle
+        dateFormatter.timeStyle = .MediumStyle
         return dateFormatter
     }()
     
@@ -99,7 +120,7 @@ public class DateLabelPickerStackViewCell: UIView, StackScrollViewCellType {
         
         editing = !editing
         
-        UIView.animateWithDuration(0.3, delay: 0, options: [.BeginFromCurrentState], animations: { 
+        UIView.animateWithDuration(0.2, delay: 0, options: [.BeginFromCurrentState], animations: {
             
             if self.editing {
                 NSLayoutConstraint.deactivateConstraints(
@@ -107,10 +128,12 @@ public class DateLabelPickerStackViewCell: UIView, StackScrollViewCellType {
                         Height(),
                     ]
                 )
+                self.borderView.hidden = false
             } else {
                 self.datePickerContainerView <- [
                     Height(0),
                 ]
+                self.borderView.hidden = true
             }
             
             self.stackScrollView.layoutIfNeeded()

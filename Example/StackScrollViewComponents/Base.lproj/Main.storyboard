@@ -18,15 +18,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igh-Hh-KIA" customClass="StackScrollView" customModule="StackScrollView">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Igh-Hh-KIA" secondAttribute="trailing" id="HHA-j8-4JP"/>
+                            <constraint firstItem="Igh-Hh-KIA" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="OMd-Te-paE"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Igh-Hh-KIA" secondAttribute="bottom" id="cSI-5G-lfo"/>
-                            <constraint firstItem="Igh-Hh-KIA" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="rj8-th-5lN"/>
                             <constraint firstItem="Igh-Hh-KIA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="uM7-j3-UzY"/>
                         </constraints>
                     </view>
@@ -36,6 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="442" y="281"/>
         </scene>
     </scenes>
 </document>

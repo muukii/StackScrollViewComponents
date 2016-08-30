@@ -27,11 +27,16 @@ import StackScrollView
 
 public class SeparatorStackViewCell: UIView, StackScrollViewCellType {
     
-    public init(leftMargin: CGFloat = 0, rightMargin: CGFloat = 0) {
+    public init(
+        leftMargin: CGFloat = 0,
+        rightMargin: CGFloat = 0,
+        backgroundColor: UIColor = UIColor.whiteColor(),
+        separatorColor: UIColor = UIColor(white: 0, alpha: 0.2)) {
+        
         super.init(frame: .zero)
         
-        backgroundColor = UIColor.clearColor()
-        borderView.backgroundColor = UIColor(white: 0, alpha: 0.2)
+        self.backgroundColor = backgroundColor
+        borderView.backgroundColor = separatorColor
         addSubview(borderView)
         
         borderView <- [

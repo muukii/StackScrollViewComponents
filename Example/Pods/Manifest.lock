@@ -1,5 +1,6 @@
 PODS:
   - EasyPeasy (1.2.1)
+  - Reveal-iOS-SDK (1.6.2)
   - StackScrollView (0.1.0):
     - EasyPeasy
   - StackScrollViewComponents (0.1.0):
@@ -7,6 +8,7 @@ PODS:
   - Then (1.0.3)
 
 DEPENDENCIES:
+  - Reveal-iOS-SDK
   - StackScrollView (from `../Vendor/StackScrollView/`)
   - StackScrollViewComponents (from `../`)
   - Then
@@ -19,10 +21,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EasyPeasy: b39f8cb9619fd248f8b65654e38eafb07efaf675
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
   StackScrollView: d07492b72960139b86bf68814dbe3bea7eddf76d
   StackScrollViewComponents: d188e67b5633579f070057103fea13803503fe73
   Then: c2502b763132c80dfa64d325065d70c45e2d48ca
 
-PODFILE CHECKSUM: 3ce929e7075700cf4f620b2c8e5ed884a4f54d93
+PODFILE CHECKSUM: d7ad9c885288493dfebfff560ca365cc00cf22ca
 
 COCOAPODS: 1.0.1

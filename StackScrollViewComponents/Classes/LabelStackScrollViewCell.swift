@@ -30,22 +30,24 @@ public class LabelStackViewCell: UIView, StackScrollViewCellType {
     public init() {
         super.init(frame: .zero)
         
+        backgroundColor = UIColor.whiteColor()
+        
         addSubview(titleLabel)
         addSubview(detailLabel)
         
         titleLabel <- [
-            Left(8),
+            Left(16),
             CenterY(),
         ]
         
         detailLabel <- [
-            Right(8),
+            Right(16),
             CenterY(),
         ]
     }
     
     public override func intrinsicContentSize() -> CGSize {
-        return CGSize(width: UIViewNoIntrinsicMetric, height: 60)
+        return CGSize(width: UIViewNoIntrinsicMetric, height: 50)
     }
     
     public required init?(coder aDecoder: NSCoder) {

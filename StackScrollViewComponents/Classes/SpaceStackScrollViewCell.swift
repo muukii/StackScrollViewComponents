@@ -32,6 +32,7 @@ public class SpaceStackViewCell: UIView, StackScrollViewCellType {
     public init(space: CGFloat) {
         self.space = space
         super.init(frame: .zero)
+        backgroundColor = UIColor.clearColor()
     }
     
     public override func intrinsicContentSize() -> CGSize {
