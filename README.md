@@ -11,12 +11,12 @@
 
 **Work in progress**
 
-- StackScrollView (Core) parent repository
+- [StackScrollView](https://github.com/muukii/StackScrollView) (Core) parent repository 
     - UI Components (This repository)
 
 ## Example
 
-<img src="shot.png" width=120>
+<img src="shot.png" width=375>
 
 ## Requirements
 
