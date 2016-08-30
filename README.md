@@ -5,9 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/StackScrollViewComponents.svg?style=flat)](http://cocoapods.org/pods/StackScrollViewComponents)
 [![Platform](https://img.shields.io/cocoapods/p/StackScrollViewComponents.svg?style=flat)](http://cocoapods.org/pods/StackScrollViewComponents)
 
+**Work in progress**
+
+**Very Scalable** iOS form builder with **UIScrollView**
+
+**Work in progress**
+
+- StackScrollView (Core) parent repository
+    - UI Components (This repository)
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<img src="shot.png" width=120>
 
 ## Requirements
 
