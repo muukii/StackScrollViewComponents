@@ -19,6 +19,8 @@
 		4B2A6A221D74BB550055F346 /* LabelStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */; };
 		4B2A6A241D74BC040055F346 /* SeparatorStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */; };
 		4B2A6A261D74BEC30055F346 /* SpaceStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */; };
+		4BDF2C0A1D75331B0041A160 /* DatePickerStackScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF2C081D7533160041A160 /* DatePickerStackScrollViewCell.swift */; };
+		4BDF2C0D1D753CC30041A160 /* TapHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF2C0B1D753B650041A160 /* TapHighlightView.swift */; };
 		525F78AEAAC7ABF3D28ADC9DD8C83224 /* Pods-StackScrollViewComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD3F987BEFC88B1467F460F02BB79E1 /* Pods-StackScrollViewComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54DE0D61DD6740119F169414DDEF455C /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F9F2A325379E2FF1348B5CBBE1B008 /* EasyPeasy.framework */; };
 		5685D4B8D3859582FCB4FC935574D799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A556C3D6EAE9E19EEC0C5391599B3E2 /* Foundation.framework */; };
@@ -136,6 +138,8 @@
 		4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStackScrollViewCell.swift; sourceTree = "<group>"; };
 		4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorStackViewCell.swift; sourceTree = "<group>"; };
 		4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4BDF2C081D7533160041A160 /* DatePickerStackScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerStackScrollViewCell.swift; sourceTree = "<group>"; };
+		4BDF2C0B1D753B650041A160 /* TapHighlightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapHighlightView.swift; sourceTree = "<group>"; };
 		4D710490F9157ABC81AA1F0F83F62596 /* StackScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StackScrollView-umbrella.h"; sourceTree = "<group>"; };
 		4FE8BA66B359528832F9818C4319EF79 /* StackScrollViewComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StackScrollViewComponents.modulemap; sourceTree = "<group>"; };
 		514FE227C73B95CC6A10F99B593C62B7 /* PositionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionAttribute.swift; path = EasyPeasy/PositionAttribute.swift; sourceTree = "<group>"; };
@@ -309,6 +313,8 @@
 				4B2A6A211D74BB550055F346 /* LabelStackScrollViewCell.swift */,
 				4B2A6A231D74BC040055F346 /* SeparatorStackViewCell.swift */,
 				4B2A6A251D74BEC30055F346 /* SpaceStackScrollViewCell.swift */,
+				4BDF2C081D7533160041A160 /* DatePickerStackScrollViewCell.swift */,
+				4BDF2C0B1D753B650041A160 /* TapHighlightView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -737,11 +743,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BDF2C0A1D75331B0041A160 /* DatePickerStackScrollViewCell.swift in Sources */,
 				4B2A6A221D74BB550055F346 /* LabelStackScrollViewCell.swift in Sources */,
 				743C1B674CDCEE24B4D36163EFA5A755 /* ReplaceMe.swift in Sources */,
 				4B2A6A241D74BC040055F346 /* SeparatorStackViewCell.swift in Sources */,
 				4B2A6A261D74BEC30055F346 /* SpaceStackScrollViewCell.swift in Sources */,
 				99F8EA47EB71A58324E2427148A0E40D /* StackScrollViewComponents-dummy.m in Sources */,
+				4BDF2C0D1D753CC30041A160 /* TapHighlightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C137F4107DB0EEB0E7704CA4D8AC5532371C9D7A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C137F4107DB0EEB0E7704CA4D8AC5532371C9D7A" : 0,
+    "09C5FF8EC3F965B06F2D9886350ECF1E1A37FB63" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6FF087C3-925A-4BA0-8885-9C4152EA8F1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C137F4107DB0EEB0E7704CA4D8AC5532371C9D7A" : "StackScrollViewComponents\/",
+    "09C5FF8EC3F965B06F2D9886350ECF1E1A37FB63" : "StackScrollViewComponents\/Vendor\/StackScrollView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StackScrollViewComponents",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/StackScrollViewComponents.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:muukii\/StackScrollView",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09C5FF8EC3F965B06F2D9886350ECF1E1A37FB63"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:muukii\/StackScrollViewComponents.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C137F4107DB0EEB0E7704CA4D8AC5532371C9D7A"
+    }
+  ]
+}

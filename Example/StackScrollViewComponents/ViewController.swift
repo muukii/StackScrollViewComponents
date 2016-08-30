@@ -59,8 +59,11 @@ class ViewController: UIViewController {
                 SeparatorStackViewCell(leftMargin: 30),
                 textFieldCell,
                 SeparatorStackViewCell(),
+                DateLabelPickerStackViewCell(),
+                SeparatorStackViewCell(),
+                DateLabelPickerStackViewCell(),
             ],
-            animated: true)
+            animated: false)
         
     }
     
